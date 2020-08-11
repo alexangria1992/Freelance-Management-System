@@ -27,13 +27,13 @@
                     <a href="./index.php" class="nav-link">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="" class="nav-link" data-target="#register-modal">Become a Seller</a>
+                    <a href="" class="nav-link" data-target="#register-modal" data-toggle="modal">Become a Seller</a>
                 </li>
                 <li class="nav-item">
                     <a href="" class="nav-link" data-target="#login-modal">Sign In</a>
                 </li>
                 <li class="nav-item">
-                    <a href="" class="btn btn-primary btn-sm" data-target="#register-modal">Sign Up</a>
+                    <a href="" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#register-modal">Sign Up</a>
                 </li>
             </ul>
         </div>
@@ -47,6 +47,47 @@
  The Page Or User Account You Are Looking for Is No Longer Available
 </div>
 
-<div class="modal fade" id="register-modal">
-    
+<div class="modal fade" id="register-modal"><!-- modal fade starts-->
+
+<div class="modal-dialog">
+    <div class="modal-form register modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title">Register Account
+
+            </h5>
+            <button class="close" data-dismiss="modal">
+                <span>&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <form action="" method="post">
+                <div class="form-group">
+                    <label  class="form-control-label font-weight-bold">Full Name</label>
+                    <input type="text" class="form-control" name="name" placeholder="Enter Your Full">
+                </div>
+                <div class="form-group">
+                    <label  class="form-control-label font-weight-bold">Username</label>
+                    <input type="text" class="form-control" name="name" placeholder="Enter Your Full">
+                </div>
+                <div class="form-group">
+                    <label  class="form-control-label font-weight-bold">Email</label>
+                    <input type="email" class="form-control" name="email" placeholder="Enter Your Email">
+                    <small class="form-text text-muted">
+                    !Important Username can not be changed once an account is registered
+                </small>
+                </div>
+        
+                <div class="form-group">
+                    <label  class="form-control-label font-weight-bold">Password</label>
+                    <input type="password" class="form-control" name="pass" placeholder="Enter Your Password">
+                </div>
+                <div class="form-group">
+                    <label  class="form-control-label font-weight-bold">Confirm Password</label>
+                    <input type="password" class="form-control" name="con_pass" placeholder="Confirm Your Password">
+                </div>
+                <input type="submit" name="register" class="btn btn-success btn-block" value="Register Here">
+            </form>
+        </div>
+    </div>
+</div>
 </div>
