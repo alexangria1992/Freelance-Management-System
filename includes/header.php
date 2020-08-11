@@ -3,8 +3,8 @@
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <a href="./Freelance-Management-System/index.php" class="navbar-brand">Computerfever</a>
-        <a href="./Freelance-Management-System/mobile_categories.php/" class="navbar-toggler"><i class="fa fa-th-large"
+        <a href="index.php" class="navbar-brand">Computerfever</a>
+        <a href="mobile_categories.php" class="navbar-toggler"><i class="fa fa-th-large"
         style = "font-size:1.5em;"></i></a>
 
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -39,3 +39,5 @@
         </div>
     </div>
 </nav>
+
+<?php include "category_nav.php"; ?>
