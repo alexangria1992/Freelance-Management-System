@@ -1,0 +1,88 @@
+body 
+{
+    overflow-x: hidden;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #333333;
+    background-color: #f0f0f0;
+    position: relative;
+}
+
+button, input[type=submit]
+{
+    cursor: pointer !important;
+}
+
+.navbar .navbar-toggler i:first-child {
+    font-size: 1.5rem;
+}
+
+.collapse.navbar-collapse hr{
+    display: none;
+}
+
+.navbar-nav .nav-item .nav-link
+{
+    color: #fff !important;
+}
+
+.navbar-nav .nav--item .btn 
+{
+    margin-top: 1px;
+}
+
+@media(max-width: 991px)
+{
+    .collapse.navbar-collapse hr 
+    {
+        display: block !important; border-top: 1px solid #fff;
+    }
+}
+
+/* Register Login & forgot password modal styles */
+
+.modal-form.register
+{
+    max-width: 500px !important;
+    margin-top:10% !important;
+
+}
+
+.modal-form 
+{
+    max-width: 350px !important;
+    margin-top: 30% !important;
+}
+
+.modal-form input[type=text],
+.modal-form input[type=email],
+.modal-form input[type=password]
+{
+    height: 44px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 10px;
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    padding: 0 8px;
+    box-sizing: boder-box;
+}
+
+.modal-form input [type=text]:hover,
+.modal-form input [type=email]:hover,
+.modal-form input [type=password]:hover
+{
+    border: 1px solid #b9b9b9;
+    border-top: 1px solid #a0a0a0;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0,.1);
+    -webkit-box-shadow : inset 0 1px 2px rgba(0,0,0,0,.1);
+    
+}
+
+.modal-form .form-text 
+{
+    font-weight: bold;
+    font-size: 14px;
+}
