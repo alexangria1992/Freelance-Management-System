@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 </head>
 <body>
+    <?php include("includes/header.php"); ?>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/popper.min.js"></script>
