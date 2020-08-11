@@ -5,6 +5,27 @@
 
 }
 
+.stickytop 
+{
+    position: fixed !important;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.stickytop .main-cat-list
+{
+    position: relative;
+    margin:3px -12px 0 -12px;
+    opacity: 0;
+}
+
+.stickytop .main-cat-list > li 
+{
+    line-height: 25px;
+}
+
+
 .mp-box.mp-box.mp-box-white
 {
     background: #fff;
