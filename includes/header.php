@@ -41,3 +41,12 @@
 </nav>
 
 <?php include "category_nav.php"; ?>
+
+<div class="alert alert-danger text-center mb-0 h6">
+ <i class="fa fa-exclamation-circle"></i>
+ The Page Or User Account You Are Looking for Is No Longer Available
+</div>
+
+<div class="modal fade" id="register-modal">
+    
+</div>
