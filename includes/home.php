@@ -149,6 +149,40 @@
     </div>
 </section>
 
+<section class="proposals-section">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 mb-5 text-center">
+                <h2>Top Featured Proposals</h2>
+                <h4 class="text-muted">Practical advice for every stage of doing</h4>
+            </div>
+            <div class="col-md-12 flex-wrap">
+                <div class="owl-carousel home-featured-carousel owl-theme">
+                    <div class="proposal-div">
+                        <div class="proposal_nav">
+                            <span class="float-left mt-2">
+                                <strong class="float-left mt-2">
+                                    By
+                                </strong>
+                                fixmywebsite
+                            </span>
+                            <span class="float-right mt-2">
+                                <img src="images/user_rate_full.png" alt="" class="rating">
+                                <img src="images/user_rate_full.png" alt="" class="rating">
+                                <img src="images/user_rate_full.png" alt="" class="rating">
+                                <img src="images/user_rate_full.png" alt="" class="rating">
+                                <img src="images/user_rate_full.png" alt="" class="rating">
+                                <img src="images/user_rate_full.png" alt="" class="rating">
+                                <span class="ml-1 mr-2">(4)</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 <div class="modal fade" id="how-it-work">
     <div class="modal-dialog">
