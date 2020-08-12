@@ -26,6 +26,17 @@
     </div>
 </header>
 
+<section class="categories-section">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 mb-5 text-center">
+                <h2>Explore Our Featured Categories</h2>
+                <h4 class="text-muted">Get inspired to build your business</h4>
+            </div>
+        </div>
+    </div>
+</section>
+
 <div class="modal fade" id="how-it-work">
     <div class="modal-dialog">
         <div class="modal-content">

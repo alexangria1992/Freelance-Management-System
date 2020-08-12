@@ -93,3 +93,29 @@ button, input[type=submit]
     font-weight: bold;
     text-align: center;
 }
+
+.home-header 
+{
+    color: white;
+    height: 500px;
+    padding: 100px 50px;
+    background:url(../images/home-header-background.jpg);
+
+}
+
+.home-header h1 
+{
+    font-size: 40px !important;
+    font-weight: 300 !important;
+}
+
+.home-header a 
+{
+    color: white;
+}
+
+.home-header a:hover 
+{
+    color: white;
+}
+
