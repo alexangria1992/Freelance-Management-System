@@ -33,9 +33,97 @@
                 <h2>Explore Our Featured Categories</h2>
                 <h4 class="text-muted">Get inspired to build your business</h4>
             </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="category-item">
+                            <a href="category.php?cat_id">
+                                <h4>Graphic & Design</h4>
+                                <img src="../Freelance-Management-System/cat_images/graphic-design.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="category-item">
+                            <a href="category.php?cat_id">
+                                <h4>Graphic & Design</h4>
+                                <img src="../Freelance-Management-System/cat_images/graphic-design.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="category-item">
+                            <a href="category.php?cat_id">
+                                <h4>Graphic & Design</h4>
+                                <img src="../Freelance-Management-System/cat_images/graphic-design.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="category-item">
+                            <a href="category.php?cat_id">
+                                <h4>Graphic & Design</h4>
+                                <img src="../Freelance-Management-System/cat_images/graphic-design.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="category-item">
+                            <a href="category.php?cat_id">
+                                <h4>Graphic & Design</h4>
+                                <img src="../Freelance-Management-System/cat_images/graphic-design.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="category-item">
+                            <a href="category.php?cat_id">
+                                <h4>Graphic & Design</h4>
+                                <img src="../Freelance-Management-System/cat_images/graphic-design.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="category-item">
+                            <a href="category.php?cat_id">
+                                <h4>Graphic & Design</h4>
+                                <img src="../Freelance-Management-System/cat_images/graphic-design.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="category-item">
+                            <a href="category.php?cat_id">
+                                <h4>Graphic & Design</h4>
+                                <img src="../Freelance-Management-System/cat_images/graphic-design.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
+
+<section class="box-section">
+    <div class="container">
+        <div class="row">
+            <div class="text-center col-sm-4 mb-4">
+                <h3>Your Terms</h3>
+                <p>Whatever you need to simplify your to do list, no matter your budget</p>
+            </div>
+            <div class="text-center col-sm-4 mb-4">
+                <h3>Your timeline</h3>
+                <p>Whatever you need to simplify your to do list, no matter your budget</p>
+            </div>
+            <div class="text-center col-sm-4 mb-4">
+                <h3>Your Safety</h3>
+                <p>Your payment is always secure, Computerfever is built to protect your peace of mind.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 <div class="modal fade" id="how-it-work">
     <div class="modal-dialog">
