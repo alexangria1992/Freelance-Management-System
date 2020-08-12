@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="styles/style.css"> 
     <link rel="stylesheet" href="styles/category_nav_style.css"> 
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link href="styles/owl.carousel.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/owl.theme.default.css">
+
 </head>
 <body>
     <?php include("includes/header.php"); ?>
@@ -17,6 +20,7 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/popper.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
     <script src="js/custom.js"></script>
 </body>
 </html>
