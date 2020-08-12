@@ -30,7 +30,7 @@
                     <a href="" class="nav-link" data-target="#register-modal" data-toggle="modal">Become a Seller</a>
                 </li>
                 <li class="nav-item">
-                    <a href="" class="nav-link" data-target="#login-modal">Sign In</a>
+                    <a href="" class="nav-link" data-target="#login-modal" data-toggle="modal">Sign In</a>
                 </li>
                 <li class="nav-item">
                     <a href="" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#register-modal">Sign Up</a>
@@ -90,4 +90,37 @@
         </div>
     </div>
 </div>
+</div>
+
+<div class="modal fade" id="login-modal">
+    <div class="modal-dialog">
+        <div class="modal-form modal-content">
+            <div>
+                <div class="modal-header">
+                    <h5 class="modal-title">Login To Your Account</h5>
+                    <button class="close" type="button" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <input type="text" name="seller_user_name" placeholder="Username" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="seller_pass" placeholder="Password" required>
+                    </div>
+                    <input type="submit" name="login" class="btn btn-success btn-block" value="Login">
+                    <div class="text-center mt-3">
+                        <a href="" data-toggle="modal" data-target="#register-modal" data-dismiss="modal">
+                            Register
+                        </a>
+                        &nbsp; &nbsp; | &nbsp; &nbsp;
+                        <a href="" data-toggle="modal" data-target="#forgot-modal" data-dismiss="modal">
+                            Forgot Password
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
