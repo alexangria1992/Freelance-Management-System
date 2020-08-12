@@ -124,6 +124,31 @@
     </div>
 </section>
 
+<section class="platform-section">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-6 mb-3">
+                <h2>We Have A creative Platform</h2>
+                <h3>Optional title for call to action</h3>
+                <p>Lorem ipsim dolor consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  </p>
+           
+                <button class="btn btn-success btn-lg" data-toggle="modal" data-target="#register-modal">
+                    Join Now
+                </button>
+
+                <a href="contact.php" class="btn btn-outline-primary btn-lg">
+                    Contact Us
+                </a>
+           
+           
+            </div>
+        <div class="col-md-6 mb-3">
+            <img src="images/platform-image.jpg" class="img-fluid rounded" alt="">
+        </div>
+        </div>
+    </div>
+</section>
+
 
 <div class="modal fade" id="how-it-work">
     <div class="modal-dialog">
