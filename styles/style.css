@@ -207,3 +207,86 @@ button, input[type=submit]
     line-height: 1.6;
 
 }
+
+/** proposal section styles **/
+
+.proposals-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+/** Proposals divs Styles **/
+
+.flex-wrap 
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.proposal-div
+{
+    background: #fff;
+    border: solid 1px #e6e6e6;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.proposal_nav 
+{
+    position: relative;
+
+}
+
+.proposal-div hr 
+{
+    margin-bottom: 5px;
+}
+
+.resp-img 
+{
+    width: 100%;
+    height: 165px;
+}
+
+.proposal-div .text h4 
+{
+    font-size: 1.2rem;
+    margin-top: 4px;
+    margin-bottom: 30px;
+}
+
+.proposal-div .text .price 
+{
+    color: #28a745;
+    font-size: 20px;
+}
+
+.video-img:after 
+{
+    content: "";
+    display: block;
+    position: absolute;
+    background-image: url(../images/play_icon.png);
+    width: 72px;
+    height: 72px;
+    top: 90px;
+    left: 50%;
+    margin-left: -36px;
+    z-index: 1;
+}
+
+.proposal-div .text 
+{
+    padding: 10px 10px 0px;
+}
+
+.proposal-div .text h4 a
+{
+    color: #0e0e0f;
+}
+
+.proposal-div .text h4 a:hover 
+{
+    color: #00B22D;
+    text-decoration: underline;
+}
