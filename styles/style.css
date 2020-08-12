@@ -290,3 +290,61 @@ button, input[type=submit]
     color: #00B22D;
     text-decoration: underline;
 }
+
+.proposal-div .favorite 
+{
+    color: #c6c6c6 !important;
+
+}
+
+.proposal-div .text .buttons 
+{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.proposal-div .ribbon 
+{
+    position: absolute;
+    top: 20px;
+    padding-left: 51px;
+    z-index: 20;
+}
+
+
+.proposal-div .ribbon .ribbon-background 
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.proposal-div .ribbon .theribbon
+{
+    position: relative;
+    width: 80px;
+    padding: 6px 20px 6px 11px;
+    margin: 30px 10px 10px -71px;
+    color: #fff;
+    background-color: #5cb85c;
+    text-shadow: 0px 1px 2px #bbb;
+}
+
+.proposal-div .ribbon .theribbon:before,
+.proposal-div .ribbon .theribbon:after
+{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+}
+
+.proposal-div .ribbon .theribbon:after
+{
+    left: 0px;
+    top: 100%;
+    border-width: 5px 10px;
+    border-style: solid;
+    border-color: #2d7d6b  #2d7d6b transparent transparent;
+}
+
