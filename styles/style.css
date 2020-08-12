@@ -348,3 +348,63 @@ button, input[type=submit]
     border-color: #2d7d6b  #2d7d6b transparent transparent;
 }
 
+/** Footer Styles **/
+
+#footer 
+{
+    background: #353537;
+    padding: 20px 0;
+}
+
+#footer h4 
+{
+    color: #777777;
+    font-size: 18px;
+    line-height: 20px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+
+}
+
+#footer ul 
+{
+    padding-left: 0;
+    list-style: none;
+}
+
+@media (max-width: 767px) and (min-width: 576px)
+{
+    #footer ul {
+        border-bottom: 1px solid #fff;
+    }
+}
+
+#footer ul a 
+{
+    color: #dddddd;
+    display: block;
+    font-size: 14px;
+    line-height: 14px;
+    margin: 7px 0px;
+    padding: 5px 0;
+}
+
+#footer ul a:hover 
+{
+    color: #dddddd;
+    text-decoration: underline;
+}
+
+#copyright
+{
+    background: #333;
+    color: #ccc;
+    padding: 20px 0;
+    font-size: 12px;
+}
+
+#copyright p 
+{
+    font-size: 13.4px;
+    margin: 0;
+}

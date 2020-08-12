@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    
     var stickyNavTop = $('.notop').offset().top;
     var stickyNav = function(){
         var scrollTop = $(window).scrollTop();

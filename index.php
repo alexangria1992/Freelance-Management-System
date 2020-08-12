@@ -15,12 +15,11 @@
 </head>
 <body>
     <?php include("includes/header.php"); ?>
-    <?php include("includes/home.php"); ?>
+    <?php include("home.php"); ?>
+    <?php include("includes/footer.php"); ?>
 
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/custom.js"></script>
+
+
+ 
 </body>
 </html>
