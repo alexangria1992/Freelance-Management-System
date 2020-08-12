@@ -10,7 +10,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <hr>
 
-            <form action="" method="post" class="form-inline mr-auto">
+            <form  method="post" class="form-inline mr-auto">
                 <div class="input-group">
                     <input type="text" class="form-control" required placeholder="Search Proposals" name="search_query">
                     <span class="input-group-btn">
@@ -95,19 +95,19 @@
 <div class="modal fade" id="login-modal">
     <div class="modal-dialog">
         <div class="modal-form modal-content">
-            <div>
+            
                 <div class="modal-header">
                     <h5 class="modal-title">Login To Your Account</h5>
                     <button class="close" type="button" data-dismiss="modal">
                         <span>&times;</span>
                     </button>
-                </div>
+                </div>      
                 <div class="modal-body">
                     <div class="form-group">
-                        <input type="text" name="seller_user_name" placeholder="Username" required>
+                        <input type="text" class="form-control" name="seller_user_name" placeholder="Username" required>
                     </div>
                     <div class="form-group">
-                        <input type="text" name="seller_pass" placeholder="Password" required>
+                        <input type="text" class="form-control" name="seller_pass" placeholder="Password" required>
                     </div>
                     <input type="submit" name="login" class="btn btn-success btn-block" value="Login">
                     <div class="text-center mt-3">
@@ -119,8 +119,40 @@
                             Forgot Password
                         </a>
                     </div>
+                </div>    
+          </div>
+      </div>
+</div>
+
+<div class="modal fade" id="forgot-modal">
+<div class="modal-dialog">
+    <div class="modal-form modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title"> Forgot Password
+
+            </h5>
+            <button class="close" data-dismiss="modal">
+                <span>&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <p class="text-muted text-center mb-2">
+                Enter your Computerfever profile email & we'll send a password reset link.
+            </p>
+            <form action="" method="post">
+                <div class="form-group">
+                    <input type="text" class="form-control" name="forgot_email" placeholder="Enter Your Email">
                 </div>
-            </div>
+                <input type="submit" name="forgot" value="Submit" class="btn btn-success btn-block">
+                <p class="text-muted text-center mt-2">
+                    Not A Member Yet?
+                </p>
+                <a href="" data-toggle="modal" data-target="#register-modal" data-dismiss="modal">
+                    Join Now
+                </a>
+            </form>
         </div>
     </div>
+</div>
+</div>
 </div>
