@@ -379,6 +379,28 @@ button, input[type=submit]
 
 }
 
+#proposal_category .nav-link 
+{
+    padding: .1rem 0rem 0.5rem 0rem;
+}
+
+#proposal_category .nav-link.active a 
+{
+    color: #333333;
+    font-weight: 500;
+}
+
+#proposal_category li ul li 
+{
+    margin-left: -20px;
+}
+
+#proposal_category li ul  .nav-link.active
+{
+    color: #333333;
+    font-weight: 500;
+}
+
 /** Customer Checkboxes style **/
 
 .checkbox span 
