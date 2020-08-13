@@ -81,6 +81,29 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="card rounded-0 mb-3">
+                                <div class="card-header">
+                                    <h4>About This Proposal</h4>
+                                </div>
+                                <div class="card-body">
+                                    <p>
+                                    Hey, thanks for checking my proposal. If you are finding an effective video promotion service then you are in the right place.How does it work?.I have some special tactics and ideas to make your video viral on youtube. I have several facebook fan pages based on different niches such as movies, music, arts, gaming, beauty care, health, bodybuilding, technology, cooking, lifestyle, kids care, etc. I will share your video there for driving quality and targeted traffic. Like If you have a video on technology then the video will be definitely shared on the technology page. So the chances of natural user engagements and traffics are very sure.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card proposal-reviews rounded-0 mb-3">
+                                <div class="card-header">
+                                    <h4>
+                                        <span class="ml-2">2 Reviews</span>
+                                        <img src="../images/user_rate_full_big.png" class="rating" alt="">
+                                        <img src="../images/user_rate_full_big.png" class="rating" alt="">
+                                        <img src="../images/user_rate_full_big.png" class="rating" alt="">
+                                        <img src="../images/user_rate_blank_big.png" class="rating" alt="">
+                                        <img src="../images/user_rate_blank_big.png" class="rating" alt="">
+                                        <span class="text-muted">3.0</span>
+                                    </h4>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
