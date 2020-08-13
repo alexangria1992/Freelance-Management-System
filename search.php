@@ -57,7 +57,243 @@
                             <img src="proposals/proposal_files/youtube-seo-1.jpg" alt="" class="resp-img">
                             </a>
                             <div class="text">
-                                
+                                <h4><a href="proposals/proposal.php" class="video-img">
+                                    I Will Do Viral YouTube Seo Media Promotion
+                                 </a></h4>
+                                 <hr>
+                                 <p class="buttons clearfix">
+                                     <a href="" data-toggle="tooltip" title="Add To Favorites" class="favorite mt-2 float-left">
+                                         <i class="fa fa-heart"></i>
+                                     </a>
+                                     <span class="float-right">Starting At <strong class="price">$5</strong></span>
+                                 </p>
+                            </div>
+                            <div class="ribbon">
+                                <div class="theribbon">Featured</div>
+                                <div class="ribbon-background"></div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="proposal-div">
+                            <div class="proposal_nav">
+                                <span class="float-left">
+                                    <strong class="ml-2 mr-1">
+                                        By
+                                    </strong>
+                                    fixmywebsite
+                                </span>
+                                <span class="float-right mt-2">
+                                    <img src="images/user_rate_full.png" alt="" class="rating">
+                                    <img src="images/user_rate_full.png" alt="" class="rating">
+                                    <img src="images/user_rate_full.png" alt="" class="rating">
+                                    <img src="images/user_rate_full.png" alt="" class="rating">
+                                    <img src="images/user_rate_full.png" alt="" class="rating">
+                                    <span class="ml-1 mr-2">(4)</span>
+                                </span>
+                                <div class="clearfix mb-2">
+
+                                </div>
+                            </div>
+                            <a href="proposals/proposal.php">
+                            <hr class="m-0 p-0">
+                            <img src="proposals/proposal_files/youtube-seo-1.jpg" alt="" class="resp-img">
+                            </a>
+                            <div class="text">
+                                <h4><a href="proposals/proposal.php" class="video-img">
+                                    I Will Do Viral YouTube Seo Media Promotion
+                                 </a></h4>
+                                 <hr>
+                                 <p class="buttons clearfix">
+                                     <a href="" data-toggle="tooltip" title="Add To Favorites" class="favorite mt-2 float-left">
+                                         <i class="fa fa-heart"></i>
+                                     </a>
+                                     <span class="float-right">Starting At <strong class="price">$5</strong></span>
+                                 </p>
+                            </div>
+                            <div class="ribbon">
+                                <div class="theribbon">Featured</div>
+                                <div class="ribbon-background"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="proposal-div">
+                            <div class="proposal_nav">
+                                <span class="float-left">
+                                    <strong class="ml-2 mr-1">
+                                        By
+                                    </strong>
+                                    fixmywebsite
+                                </span>
+                                <span class="float-right mt-2">
+                                    <img src="images/user_rate_full.png" alt="" class="rating">
+                                    <img src="images/user_rate_full.png" alt="" class="rating">
+                                    <img src="images/user_rate_full.png" alt="" class="rating">
+                                    <img src="images/user_rate_full.png" alt="" class="rating">
+                                    <img src="images/user_rate_full.png" alt="" class="rating">
+                                    <span class="ml-1 mr-2">(4)</span>
+                                </span>
+                                <div class="clearfix mb-2">
+
+                                </div>
+                            </div>
+                            <a href="proposals/proposal.php">
+                            <hr class="m-0 p-0">
+                            <img src="proposals/proposal_files/youtube-seo-1.jpg" alt="" class="resp-img">
+                            </a>
+                            <div class="text">
+                                <h4><a href="proposals/proposal.php" class="video-img">
+                                    I Will Do Viral YouTube Seo Media Promotion
+                                 </a></h4>
+                                 <hr>
+                                 <p class="buttons clearfix">
+                                     <a href="" data-toggle="tooltip" title="Add To Favorites" class="favorite mt-2 float-left">
+                                         <i class="fa fa-heart"></i>
+                                     </a>
+                                     <span class="float-right">Starting At <strong class="price">$5</strong></span>
+                                 </p>
+                            </div>
+                            <div class="ribbon">
+                                <div class="theribbon">Featured</div>
+                                <div class="ribbon-background"></div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="proposal-div">
+                            <div class="proposal_nav">
+                                <span class="float-left">
+                                    <strong class="ml-2 mr-1">
+                                        By
+                                    </strong>
+                                    fixmywebsite
+                                </span>
+                                <span class="float-right mt-2">
+                                    <img src="images/user_rate_full.png" alt="" class="rating">
+                                    <img src="images/user_rate_full.png" alt="" class="rating">
+                                    <img src="images/user_rate_full.png" alt="" class="rating">
+                                    <img src="images/user_rate_full.png" alt="" class="rating">
+                                    <img src="images/user_rate_full.png" alt="" class="rating">
+                                    <span class="ml-1 mr-2">(4)</span>
+                                </span>
+                                <div class="clearfix mb-2">
+
+                                </div>
+                            </div>
+                            <a href="proposals/proposal.php">
+                            <hr class="m-0 p-0">
+                            <img src="proposals/proposal_files/youtube-seo-1.jpg" alt="" class="resp-img">
+                            </a>
+                            <div class="text">
+                                <h4><a href="proposals/proposal.php" class="video-img">
+                                    I Will Do Viral YouTube Seo Media Promotion
+                                 </a></h4>
+                                 <hr>
+                                 <p class="buttons clearfix">
+                                     <a href="" data-toggle="tooltip" title="Add To Favorites" class="favorite mt-2 float-left">
+                                         <i class="fa fa-heart"></i>
+                                     </a>
+                                     <span class="float-right">Starting At <strong class="price">$5</strong></span>
+                                 </p>
+                            </div>
+                            <div class="ribbon">
+                                <div class="theribbon">Featured</div>
+                                <div class="ribbon-background"></div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="proposal-div">
+                            <div class="proposal_nav">
+                                <span class="float-left">
+                                    <strong class="ml-2 mr-1">
+                                        By
+                                    </strong>
+                                    fixmywebsite
+                                </span>
+                                <span class="float-right mt-2">
+                                    <img src="images/user_rate_full.png" alt="" class="rating">
+                                    <img src="images/user_rate_full.png" alt="" class="rating">
+                                    <img src="images/user_rate_full.png" alt="" class="rating">
+                                    <img src="images/user_rate_full.png" alt="" class="rating">
+                                    <img src="images/user_rate_full.png" alt="" class="rating">
+                                    <span class="ml-1 mr-2">(4)</span>
+                                </span>
+                                <div class="clearfix mb-2">
+
+                                </div>
+                            </div>
+                            <a href="proposals/proposal.php">
+                            <hr class="m-0 p-0">
+                            <img src="proposals/proposal_files/youtube-seo-1.jpg" alt="" class="resp-img">
+                            </a>
+                            <div class="text">
+                                <h4><a href="proposals/proposal.php" class="video-img">
+                                    I Will Do Viral YouTube Seo Media Promotion
+                                 </a></h4>
+                                 <hr>
+                                 <p class="buttons clearfix">
+                                     <a href="" data-toggle="tooltip" title="Add To Favorites" class="favorite mt-2 float-left">
+                                         <i class="fa fa-heart"></i>
+                                     </a>
+                                     <span class="float-right">Starting At <strong class="price">$5</strong></span>
+                                 </p>
+                            </div>
+                            <div class="ribbon">
+                                <div class="theribbon">Featured</div>
+                                <div class="ribbon-background"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="proposal-div">
+                            <div class="proposal_nav">
+                                <span class="float-left">
+                                    <strong class="ml-2 mr-1">
+                                        By
+                                    </strong>
+                                    fixmywebsite
+                                </span>
+                                <span class="float-right mt-2">
+                                    <img src="images/user_rate_full.png" alt="" class="rating">
+                                    <img src="images/user_rate_full.png" alt="" class="rating">
+                                    <img src="images/user_rate_full.png" alt="" class="rating">
+                                    <img src="images/user_rate_full.png" alt="" class="rating">
+                                    <img src="images/user_rate_full.png" alt="" class="rating">
+                                    <span class="ml-1 mr-2">(4)</span>
+                                </span>
+                                <div class="clearfix mb-2">
+
+                                </div>
+                            </div>
+                            <a href="proposals/proposal.php">
+                            <hr class="m-0 p-0">
+                            <img src="proposals/proposal_files/youtube-seo-1.jpg" alt="" class="resp-img">
+                            </a>
+                            <div class="text">
+                                <h4><a href="proposals/proposal.php" class="video-img">
+                                    I Will Do Viral YouTube Seo Media Promotion
+                                 </a></h4>
+                                 <hr>
+                                 <p class="buttons clearfix">
+                                     <a href="" data-toggle="tooltip" title="Add To Favorites" class="favorite mt-2 float-left">
+                                         <i class="fa fa-heart"></i>
+                                     </a>
+                                     <span class="float-right">Starting At <strong class="price">$5</strong></span>
+                                 </p>
+                            </div>
+                            <div class="ribbon">
+                                <div class="theribbon">Featured</div>
+                                <div class="ribbon-background"></div>
                             </div>
                         </div>
                     </div>
