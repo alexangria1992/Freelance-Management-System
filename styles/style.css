@@ -522,7 +522,32 @@ button, input[type=submit]
     margin-left: 10px;
 }
 
+
+/** Single Proposal Page Styles **/
+
+.details 
+{
+    padding: 0px;
+}
+
+.details .proposal-info 
+{
+    padding: 15px;
+    padding-bottom: 0px;
+}
+
+.details .proposal-info h3 
+{
+    margin-bottom: 5px; margin-top: 5px;
+}
+
+.details .proposal-info hr
+{
+    
+}
+
 /** Footer Styles **/
+
 
 #footer 
 {

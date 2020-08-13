@@ -9,22 +9,22 @@
     <title>I Will Do Viral Youtube SEO Social Media Promotion</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
     <link href="../styles/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="../styles/style.css"> 
+    <link rel="stylesheet" href="../styles/style.css">
     <link rel="stylesheet" href="../styles/category_nav_style.css"> 
     <link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css">
     <link href="../styles/owl.carousel.css" rel="stylesheet">
     <link rel="stylesheet" href="../styles/owl.theme.default.css">
-
 </head>
+
 <body>
     <?php include("../includes/header.php"); ?>
-
-        <div class="container mt-5">
+    
+    <div class="container mt-5">
             <div class="row">
                 <div class="col-lg-8 col-md-7 mb-3">
                     <div class="card rounded-0 mb-3">
                         <div class="card-body details">
-                            <div class="proposal-info">
+                        <div class="proposal-info">
                             <h3>I Will Do Viral YouTube SEO Social Media Promotion</h3>
                             <img src="../images/user_rate_full.png" alt="" class="rating">
                             <img src="../images/user_rate_full.png" alt="" class="rating">
@@ -58,19 +58,33 @@
                                 });
 
                                 </script>
+                                </div>
+                                    <div class="carousel-item">
+                                        <img src="proposal_files/youtube-seo-1.jpg" alt="" class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="proposal_files/youtube-seo-2.jpg" alt="" class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="proposal_files/youtube-seo-3.jpg" alt="" class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="proposal_files/youtube-seo-4.jpg" alt="" class="d-block w-100">
+                                    </div>
+                                </div>
+                                <a href="#myCarousel" data-slide="prev" class="carousel-control-prev slide-nav slide-right">
+                                      <span class="carousel-control-prev-icon carousel-icon"></span>
+                                    </a>
+                                    <a href="#myCarousel" data-slide="next" class="carousel-control-next slide-nav slide-left">
+                                      <span class="carousel-control-next-icon carousel-icon"></span>
+                                    </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
+   <?php include("../includes/footer.php"); ?>
 
-    <?php include("../includes/footer.php"); ?>
-
-
-
- 
-</body>
+   </body>
 </html>
