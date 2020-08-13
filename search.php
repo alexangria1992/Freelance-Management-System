@@ -33,6 +33,54 @@
     </div>
     <?php include("includes/footer.php"); ?>
 
+    <script>
+        $(document).ready(function(){
+            $(".get_cat_id").click(function(){
+                if($('.get_cat_id:checked').length > 0)
+                {
+                    $('.clear_cat_id').show();
+                }
+                else 
+                {
+                    $(".clear_cat_id").hide();
+                }
+            });
+
+            $(".get_delivery_time").click(function(){
+                if($('.get_delivery_time:checked').length > 0)
+                {
+                    $('.clear_delivery_time').show();
+                }
+                else 
+                {
+                    $(".clear_delivery_time").hide();
+                }
+            });
+
+            $(".get_seller_level").click(function(){
+                if($('.get_seller_level:checked').length > 0)
+                {
+                    $('.clear_seller_level').show();
+                }
+                else 
+                {
+                    $(".clear_seller_level").hide();
+                }
+            });
+
+            $(".get_seller_language").click(function(){
+                if($('.get_seller_language:checked').length > 0)
+                {
+                    $('.clear_seller_language').show();
+                }
+                else 
+                {
+                    $(".clear_seller_language").hide();
+                }
+            });
+        })
+    </script>
+
 
 
  
