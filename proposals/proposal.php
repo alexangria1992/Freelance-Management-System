@@ -19,6 +19,33 @@
 <body>
     <?php include("../includes/header.php"); ?>
 
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-lg-8 col-md-7 mb-3">
+                    <div class="card rounded-0 mb-3">
+                        <div class="card-body details">
+                            <div class="proposal-info">
+                            <h3>I Will Do Viral YouTube SEO Social Media Promotion</h3>
+                            <img src="../images/user_rate_full.png" alt="" class="rating">
+                            <img src="../images/user_rate_full.png" alt="" class="rating">
+                            <img src="../images/user_rate_full.png" alt="" class="rating">
+                            <img src="../images/user_rate_blank.png" alt="" class="rating">
+                            <img src="../images/user_rate_blank.png" alt="" class="rating">
+                            <span class="text-muted span">(2) &nbsp; &nbsp; 1 Orders  In Queue</span>
+                                <hr>
+                                <a href="">Digital Marketing</a> / <a href="">Social Media Marketing</a>
+                            </div>
+                            <div id="myCarousel" class="carousel slide">
+                                <ol class="carousel-indicators">
+                                    
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     <?php include("../includes/footer.php"); ?>
 
 
