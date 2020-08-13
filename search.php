@@ -78,7 +78,42 @@
                     $(".clear_seller_language").hide();
                 }
             });
+
+            $(".clear_cat_id").click(function(){
+                $(".clear_cat_id").hide();
+            })
+
+            $(".clear_delivery_time").click(function(){
+                $(".clear_delivery_time").hide();
+            })
+
+            $(".clear_seller_level").click(function(){
+                $(".clear_seller_level").hide();
+            })
+
+            $(".clear_seller_language").click(function(){
+                $(".clear_seller_language").hide();
+            })
+
+          
         })
+
+            function clearCat(){
+                $('.get_cat_id').prop('checked', false);
+            }
+
+            function clearDelivery(){
+                $('.get_delivery_time').prop('checked', false);
+            }
+
+            function clearLevel(){
+                $('.get_seller_level').prop('checked', false);
+            }
+
+            function clearLanguage(){
+                $('.get_seller_language').prop('checked', false);
+            }
+    
     </script>
 
 
