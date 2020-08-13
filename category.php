@@ -36,7 +36,75 @@
         </div>
     <?php include("includes/footer.php"); ?>
 
+    <script>
+        $(document).ready(function(){
+          
 
+            $(".get_delivery_time").click(function(){
+                if($('.get_delivery_time:checked').length > 0)
+                {
+                    $('.clear_delivery_time').show();
+                }
+                else 
+                {
+                    $(".clear_delivery_time").hide();
+                }
+            });
+
+            $(".get_seller_level").click(function(){
+                if($('.get_seller_level:checked').length > 0)
+                {
+                    $('.clear_seller_level').show();
+                }
+                else 
+                {
+                    $(".clear_seller_level").hide();
+                }
+            });
+
+            $(".get_seller_language").click(function(){
+                if($('.get_seller_language:checked').length > 0)
+                {
+                    $('.clear_seller_language').show();
+                }
+                else 
+                {
+                    $(".clear_seller_language").hide();
+                }
+            });
+
+           
+
+            $(".clear_delivery_time").click(function(){
+                $(".clear_delivery_time").hide();
+            })
+
+            $(".clear_seller_level").click(function(){
+                $(".clear_seller_level").hide();
+            })
+
+            $(".clear_seller_language").click(function(){
+                $(".clear_seller_language").hide();
+            })
+
+          
+        })
+
+           
+
+            function clearDelivery(){
+                $('.get_delivery_time').prop('checked', false);
+            }
+
+            function clearLevel(){
+                $('.get_seller_level').prop('checked', false);
+            }
+
+            function clearLanguage(){
+                $('.get_seller_language').prop('checked', false);
+            }
+    
+    </script>
 
  
 </body>
