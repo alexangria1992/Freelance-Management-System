@@ -298,6 +298,26 @@
                         </div>
                     </div>
                 </div>
+                <div id="wait"> </div>
+                <br><br>
+                <div class="row justify-content-center">
+                    <nav>
+                        <ul class="pagination" id="search-pagination">
+                            <li class="page-item">
+                                <a href="" class="page-link">First Page</a>
+                            </li>
+                            <li class="page-item">
+                                <a href="" class="page-link">1</a>
+                            </li>
+                            <li class="page-item">
+                                <a href="" class="page-link">2</a>
+                            </li>
+                            <li class="page-item">
+                                <a href="" class="page-link">Last Page</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
         </div>
     </div>
