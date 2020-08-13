@@ -348,6 +348,91 @@ button, input[type=submit]
     border-color: #2d7d6b  #2d7d6b transparent transparent;
 }
 
+/** Search Proposals & Category Proposals Styles **/
+
+.bg-white
+{
+    background: white;
+}
+
+
+.clearlink 
+{
+    display: none;
+}
+
+/** Customer Checkboxes style **/
+
+.checkbox span 
+{
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    padding-left: 5px;
+}
+
+.checkbox span::before 
+{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    left: 0;
+    top: 0;
+    margin-left: -20px;
+    border: 2px solid #cccccc;
+    border-radius: 3px;
+    background-color: #fff;
+    transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+}
+
+.checkbox span::after 
+{
+    display: inline-block;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 0;
+    top: 0;
+    margin-left: -20px;
+    padding-left: 3px;
+    padding-top: 1px;
+    font-size: 11px;
+    color: #555555;
+
+}
+
+.checkbox input[type="checkbox"]
+{
+    opacity: 0;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.checkbox input[type="checkbox"]:focus + span::before
+{
+    outline: this dotted;
+    outline: 5px auto;
+    outline-offset: -2px;
+}
+
+.checkbox input[type="checkbox"]:checked + span::after
+{
+   font-family: "FontAwesome";
+   content: "\f00c";
+}
+
+.checkbox-primary input[type="checkbox"]:checked + span::before
+{
+    background-color: #337ab7;
+    border-color: #337ab7;
+}
+
+.checkbox-primary input[type="checkbox"]:checked + span::after
+{
+    color: #fff;
+}
 /** Footer Styles **/
 
 #footer 
