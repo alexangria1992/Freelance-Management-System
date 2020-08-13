@@ -101,7 +101,28 @@
                                         <img src="../images/user_rate_blank_big.png" class="rating" alt="">
                                         <img src="../images/user_rate_blank_big.png" class="rating" alt="">
                                         <span class="text-muted">3.0</span>
+                                        <div class="dropdown float-right">
+                                            <button id="dropdown-button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">
+                                                Most Recent
+                                            </button>
+                                        <ul class="dropdown-menu">
+                                            <li class="dropdown-item active all">Most Recent</li>
+                                            <li class="dropdown-item good">Positive Reviews</li>
+                                            <li class="dropdown-item bad">Negative Reviews</li>
+                                        </ul>
+                                        </div>
                                     </h4>
+                                </div>
+                                <div class="card-body">
+                                    <article id="id" class="proposal-reviews">
+                                        <ul class="reviews-list">
+                                            <li class="star-rating-row">
+                                                <span class="user-picture">
+                                                    <img src="../images/brock.jpg" width="60" height="60" alt="">
+                                                </span>
+                                            </li>
+                                        </ul>
+                                    </article>
                                 </div>
                             </div>
                         </div>
