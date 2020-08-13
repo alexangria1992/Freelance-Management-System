@@ -15,74 +15,93 @@
 </head>
 <body>
     <?php include("includes/header.php"); ?>
-     <div class="container mt-5">
-         <h2 class="text-center mb-4">Computerfever Categories</h2>
-         <div class="text-center mb-4">
-             <div class="mobile-category">
-                 <a href="category.php?cat_id">
-                     <div class="ml-2 mt-3 category-picture">
-                         <img src="cat_images/graphic-design.png" alt="">
-                     </div>
-                     <div class="category-text">
-                         <p class="category-title">
-                             <strong>Graphic Designing</strong>
-                         </p>
-                         <p class="mb-4 category-desc">
-                             It is a long established fact that a reader will be distract
-                         </p>
-                     </div>
-                 </a>
-             </div>
+   
+    <div class="container mt-5"><!-- container mt-5 Starts -->
+        <h2 class="text-center mb-4"> Computerfever Categories </h2>
+            <div class="mobile-category">
+                <a href="category.php?cat_id" >
+                    <div class="ml-2 mt-3 category-picture">
+                        <img src="cat_images/graphic-design.png" alt="">
+                    </div>
+                    <div class="category-text">
+                        <p class="category-title">
+                            <strong>Graphic Designing</strong>
+                        </p>
+                        <p class="mb-4 category-desc">
+                            It is a long established fact that a reader will be distracted
+                        </p>
+                    </div>
+                </a>
+            </div>
 
-             <div class="mobile-category">
-                 <a href="category.php?cat_id">
-                     <div class="ml-2 mt-3 category-picture">
-                         <img src="cat_images/graphic-design.png" alt="">
-                     </div>
-                     <div class="category-text">
-                         <p class="category-title">
-                             <strong>Graphic Designing</strong>
-                         </p>
-                         <p class="mb-4 category-desc">
-                             It is a long established fact that a reader will be distract
-                         </p>
-                     </div>
-                 </a>
-             </div>
+            <div class="mobile-category">
+                <a href="category.php?cat_id" >
+                    <div class="ml-2 mt-3 category-picture">
+                        <img src="cat_images/graphic-design.png" alt="">
+                    </div>
+                    <div class="category-text">
+                        <p class="category-title">
+                            <strong>Graphic Designing</strong>
+                        </p>
+                        <p class="mb-4 category-desc">
+                            It is a long established fact that a reader will be distracted
+                        </p>
+                    </div>
+                </a>
+            </div>
 
-             <div class="mobile-category">
-                 <a href="category.php?cat_id">
-                     <div class="ml-2 mt-3 category-picture">
-                         <img src="cat_images/graphic-design.png" alt="">
-                     </div>
-                     <div class="category-text">
-                         <p class="category-title">
-                             <strong>Graphic Designing</strong>
-                         </p>
-                         <p class="mb-4 category-desc">
-                             It is a long established fact that a reader will be distract
-                         </p>
-                     </div>
-                 </a>
-             </div>
+            <div class="mobile-category">
+                <a href="category.php?cat_id" >
+                    <div class="ml-2 mt-3 category-picture">
+                        <img src="cat_images/graphic-design.png" alt="">
+                    </div>
+                    <div class="category-text">
+                        <p class="category-title">
+                            <strong>Graphic Designing</strong>
+                        </p>
+                        <p class="mb-4 category-desc">
+                            It is a long established fact that a reader will be distracted
+                        </p>
+                    </div>
+                </a>
+            </div>
 
-             <div class="mobile-category">
-                 <a href="category.php?cat_id">
-                     <div class="ml-2 mt-3 category-picture">
-                         <img src="cat_images/graphic-design.png" alt="">
-                     </div>
-                     <div class="category-text">
-                         <p class="category-title">
-                             <strong>Graphic Designing</strong>
-                         </p>
-                         <p class="mb-4 category-desc">
-                             It is a long established fact that a reader will be distract
-                         </p>
-                     </div>
-                 </a>
-             </div>
-         </div>
-     </div>
+            <div class="mobile-category">
+                <a href="category.php?cat_id" >
+                    <div class="ml-2 mt-3 category-picture">
+                        <img src="cat_images/graphic-design.png" alt="">
+                    </div>
+                    <div class="category-text">
+                        <p class="category-title">
+                            <strong>Graphic Designing</strong>
+                        </p>
+                        <p class="mb-4 category-desc">
+                            It is a long established fact that a reader will be distracted
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="mobile-category">
+                <a href="category.php?cat_id" >
+                    <div class="ml-2 mt-3 category-picture">
+                        <img src="cat_images/graphic-design.png" alt="">
+                    </div>
+                    <div class="category-text">
+                        <p class="category-title">
+                            <strong>Graphic Designing</strong>
+                        </p>
+                        <p class="mb-4 category-desc">
+                            It is a long established fact that a reader will be distracted
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+    
+
+           
     <?php include("includes/footer.php"); ?>
 
 
