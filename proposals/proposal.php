@@ -37,8 +37,29 @@
                             </div>
                             <div id="myCarousel" class="carousel slide">
                                 <ol class="carousel-indicators">
-                                    
+                                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                                    <li data-target="#myCarousel" data-slide-to="4"></li>
                                 </ol>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <script  src="https://cdn.jwplayer.com/libraries/gsd20Wpi.js"></script>
+                                <div class="d-block w-100" id="player"></div>
+                                <script>
+                                
+                                var player = jwplayer('player');
+
+                                player.setup({
+                                    file: "proposal_files/youtube-seo-video.mp4",
+                                    image: "proposal_files/youtube-seo-1.jpg"
+
+                                });
+
+                                </script>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
