@@ -921,6 +921,13 @@ display: none;
     margin: 0;
 }
 
+/*Contact **/
+
+.alert-warning
+{
+    width:1110px;
+    margin-left: -524px;
+}
 /** Bootstrap 4 Responsive Styles **/
 
 @media(min-width: 768px) and (max-width: 991px)
