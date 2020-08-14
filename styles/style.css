@@ -802,6 +802,37 @@ display: none;
     top: 160px;
     left: 130px;
 }
+
+.content-bar .headline
+{
+    font-size: 21px;
+}
+
+.content-bar .star-rating 
+{
+    font-size: 20px;
+    color: yellow;
+}
+
+.content-bar .user-is-online 
+{
+    font-size: 22px;
+}
+
+.user-status 
+{
+    background: url(../images/user-background-cover.jpg);
+    padding: 2px 0;
+    color: #fff;
+}
+
+.user-status ul li 
+{
+    padding-right: 30px;
+    display: inline-block;
+    font-size: 18px;
+    margin-top:18px;
+}
 /** Footer Styles **/
 
 

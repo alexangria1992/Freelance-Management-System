@@ -16,8 +16,23 @@
 <body>
     <?php include("includes/header.php"); ?>
     <?php include("includes/user_profile_header.php") ?>
-    <?php include("includes/footer.php"); ?>
 
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4 mt-4">
+                <?php include("includes/user_sidebar.php") ?>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+
+    <?php include("includes/footer.php"); ?>
+   
 
 
  
