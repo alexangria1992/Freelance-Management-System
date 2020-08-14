@@ -159,6 +159,37 @@
                         </div>
                     </div>
                 </div>
+                
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="col-md-12">
+                            <div class="card user-reviews mt-4 mb-4 rounded-0">
+                                <div class="card-header">
+                                    <h4>
+                                        miss_digimarket's reviews
+                                        <img src="images/user_rate_full_big.png" alt="" class="rating">
+                                        <img src="images/user_rate_full_big.png" alt="" class="rating">
+                                        <img src="images/user_rate_full_big.png" alt="" class="rating">
+                                        <img src="images/user_rate_blank_big.png" alt="" class="rating">
+                                        <img src="images/user_rate_blank_big.png" alt="" class="rating">
+                                    <span class="text-muted">3.0(2)</span>
+                                    <div  class="dropdown float-right">
+                                        <button id="id" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">
+                                            Most Recent
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                            <li class="dropdown-item active all"></li>
+                                            <li class="dropdown-item good"></li>
+                                            <li class="dropdown-item bad"></li>
+                                        </ul>
+                                    </div>
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
 
