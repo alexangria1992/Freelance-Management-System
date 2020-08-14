@@ -833,6 +833,22 @@ display: none;
     font-size: 18px;
     margin-top:18px;
 }
+
+.user-sidebar .card-body .card-hr
+{
+    margin-right: -15px;
+    margin-left: -15px;
+  
+
+}
+
+.user-sidebar .card-body .card-li 
+{
+    font-size: 1rem;
+    font-weight: 400;
+   
+    
+}
 /** Footer Styles **/
 
 

@@ -22,6 +22,39 @@
             <div class="col-md-4 mt-4">
                 <?php include("includes/user_sidebar.php") ?>
             </div>
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card mt-4 mb-4 rounded-0">
+                            <div class="card-body">
+                                <h2>Miss_digimarket's Proposals</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="proposal-div">
+                            <div class="proposal_nav">
+                                <span class="float-left">
+                                    <strong class="ml-2 mr-1">By</strong>miss_digimarked
+                                </span>
+                                <span class="float-right mt-2">
+                                    <img src="images/user_rate_full.png" alt="" class="rating">
+                                    <img src="images/user_rate_full.png" alt="" class="rating">
+                                    <img src="images/user_rate_full.png" alt="" class="rating">
+                                    <img src="images/user_rate_blank.png" alt="" class="rating">
+                                    <img src="images/user_rate_blank.png" alt="" class="rating">
+                                <span class="ml-1 mr-2">(3)</span>
+                                </span>
+                                <div class="clearfix mb-2">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
 
