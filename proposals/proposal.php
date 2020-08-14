@@ -7,13 +7,13 @@
     service then you are in the right place. How does it work? I have some spec">
     <meta name="author" content="miss_digimarket">
     <title>I Will Do Viral Youtube SEO Social Media Promotion</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
     <link href="../styles/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="../styles/style.css">
-    <link rel="stylesheet" href="../styles/category_nav_style.css"> 
-    <link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css">
-    <link href="../styles/owl.carousel.css" rel="stylesheet">
-    <link rel="stylesheet" href="../styles/owl.theme.default.css">
+    <link href="../styles/style.css" rel="stylesheet"  >
+    <link href="../styles/category_nav_style.css" rel="stylesheet" > 
+    <link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet" > 
+    <link href="../styles/owl.carousel.css" rel="stylesheet"> 
+    <link href="../styles/owl.theme.default.css" rel="stylesheet" >  
 </head>
 
 <body>
@@ -269,8 +269,6 @@
                                                 This buyer does not give complete guideline to do her work and her behavior is very harsh.
                                                 </div>
                                             </li>
-                                            <hr>
-                                           
                                         </ul>
                                     </article>
 
@@ -281,5 +279,43 @@
                 </div>
    <?php include("../includes/footer.php"); ?>
 
+   <script>
+       $(document).ready(function(){
+           $("#good").hide();
+           $("#bad").hide();
+           $(".all").click(function(){
+               $("#dropdown-button").html("Most Recent");
+               $(".all").attr('class', 'dropdown-item all active');
+               $(".bad").attr('class', 'dropdown-item bad');
+               $(".good").attr('class', 'dropdown-item good ');
+               $("#all").hide();
+               $("#good").show();
+               $("#bad").hide();
+
+           });
+
+           $(".good").click(function(){
+               $("#dropdown-button").html("Positive Reviews");
+               $(".all").attr('class', 'dropdown-item all');
+               $(".bad").attr('class', 'dropdown-item bad');
+               $(".good").attr('class', 'dropdown-item good active');
+               $("#all").hide();
+               $("#good").show();
+               $("#bad").hide();
+
+           });
+
+           $(".bad").click(function(){
+               $("#dropdown-button").html("Negative Reviews");
+               $(".all").attr('class', 'dropdown-item all');
+               $(".bad").attr('class', 'dropdown-item bad active');
+               $(".good").attr('class', 'dropdown-item good');
+               $("#all").hide();
+               $("#good").hide();
+               $("#bad").show();
+
+           });
+       })
+   </script>
    </body>
 </html>

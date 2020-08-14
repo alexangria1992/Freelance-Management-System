@@ -605,6 +605,102 @@ button, input[type=submit]
     margin-top: -10px;
 }
 
+/** Review Styles **/
+.proposal-reviews .card-header .rating 
+{
+    margin-top: -7px;
+
+}
+
+.proposal-reviews .card-header ul li 
+{
+    cursor: pointer;
+}
+
+.proposal-reviews hr 
+{
+    margin-left: -60px !important;
+    margin-right: -20px !important;
+}
+
+.proposal-reviews hr:last-child
+{
+display: none;
+}
+
+.proposal-reviews .reviews-list 
+{
+    list-style: none;
+}
+
+.proposal-reviews .reviews-list li 
+{
+    margin-left: -40px;
+    background: #fff;
+    padding: 15px 58px 15px 92px;
+    min-height: 68px;
+    position: relative;
+  
+}
+
+.proposal-reviews .reviews-list li .user-picture 
+{
+    float: none;
+    position: absolute;
+    margin-top: -7px;
+    left: 20px;
+    top: 20px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+
+.proposal-reviews .reviews-list li .msg-body 
+{
+    margin-top: -5px;
+}
+
+.proposal-reviews .reviews-list li h4,
+.proposal-reviews .reviews-list li .msg-body 
+{
+    color: #0e0e0f;
+    text-transform: capitalize;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.proposal-reviews .reviews-list li .rating-date 
+{
+    font-size: 12px;
+    color: #999999;
+}
+
+.proposal-reviews .reviews-list li.rating-seller 
+{
+    min-height: 45px;
+    padding-top: 0px;
+    padding-left: 142px;
+}
+
+.proposal-reviews .reviews-list li.rating-seller h4 
+{
+    color: #0e0e0f;
+    font-size: 12px;
+    margin-top: 2px;
+    font-weight: 500;
+}
+
+.proposal-reviews .reviews-list li.rating-seller .user-picture 
+{
+    float: none;
+    position: absolute;
+    top: 0;
+    left: 93px;
+    overflow: hidden;
+    border-radius: 10%;
+
+} 
+
 /** Footer Styles **/
 
 
