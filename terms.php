@@ -49,6 +49,7 @@
                 <div class="col-md-9">
                     <div class="card">
                         <div class="card-body">
+                            <div class="tab-content">
                             <div id="terms-conditions" class="tab-pane fade show active">
                                 <h1>Terms And Conditions</h1>
                                     <p>

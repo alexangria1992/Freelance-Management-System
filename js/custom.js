@@ -1,5 +1,6 @@
 $(document).ready(function(){
-    
+    var bodyHeight = $("body").height();
+    if(bodyHeight > 1000){
     var stickyNavTop = $('.notop').offset().top;
     var stickyNav = function(){
         var scrollTop = $(window).scrollTop();
@@ -18,7 +19,7 @@ $(document).ready(function(){
     $(window).scroll(function(){
         stickyNav();
     });
-
+    }
     $(".home-featured-carousel").owlCarousel({
         items: 4,
         margin: 30,
