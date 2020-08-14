@@ -845,10 +845,20 @@ display: none;
 .user-sidebar .card-body .card-li 
 {
     font-size: 1rem;
-    font-weight: 400;
-   
-    
+    font-weight: 400; 
 }
+
+.user-reviews .card-header .rating 
+{
+    margin-top: -7px;
+}
+
+.user-reviews .card-header .ul li 
+{
+    cursor: pointer;
+} 
+
+
 /** Footer Styles **/
 
 

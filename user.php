@@ -162,7 +162,6 @@
                 
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="col-md-12">
                             <div class="card user-reviews mt-4 mb-4 rounded-0">
                                 <div class="card-header">
                                     <h4>
@@ -174,19 +173,64 @@
                                         <img src="images/user_rate_blank_big.png" alt="" class="rating">
                                     <span class="text-muted">3.0(2)</span>
                                     <div  class="dropdown float-right">
-                                        <button id="id" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">
+                                        <button id="dropdown-button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">
                                             Most Recent
                                         </button>
                                         <ul class="dropdown-menu">
-                                            <li class="dropdown-item active all"></li>
-                                            <li class="dropdown-item good"></li>
-                                            <li class="dropdown-item bad"></li>
+                                            <li class="dropdown-item active all">Most Recent</li>
+                                            <li class="dropdown-item good">Positive Reviews</li>
+                                            <li class="dropdown-item bad">Negative Reviews</li>
                                         </ul>
                                     </div>
                                     </h4>
                                 </div>
+                                <div class="card-body">
+                                    <article id="all" class="proposal-reviews">
+                                        <ul class="reviews-list">
+                                            <li class="star-rating-row">
+                                                <span class="user-picture">
+                                                    <img src="user_images/brock.jpg" width="60" height="60" alt="">
+                                                </span>
+                                                <h4>
+                                                    <a href="" class="mr-1">Brock Lesnar</a>
+                                                    <img src="images/user_rate_full.png" alt="" class="rating">
+                                                    <img src="images/user_rate_full.png" alt="" class="rating">
+                                                    <img src="images/user_rate_full.png" alt="" class="rating">
+                                                    <img src="images/user_rate_full.png" alt="" class="rating">
+                                                    <img src="images/user_rate_full.png" alt="" class="rating">
+
+                                                </h4>
+                                                <div class="msg-body">
+                                                    Very outstanding Work.
+                                                </div>
+                                                <span class="rating-date">Nov 20, 2020</span>
+                                            </li>
+                                            <hr>
+
+
+                                            <li class="star-rating-row">
+                                                <span class="user-picture">
+                                                    <img src="user_images/salman.jpg" width="60" height="60" alt="">
+                                                </span>
+                                                <h4>
+                                                    <a href="" class="mr-1">Salman Khan</a>
+                                                    <img src="images/user_rate_full.png" alt="" class="rating">
+                                                    <img src="images/user_rate_blank.png" alt="" class="rating">
+                                                    <img src="images/user_rate_blank.png" alt="" class="rating">
+                                                    <img src="images/user_rate_blank.png" alt="" class="rating">
+                                                    <img src="images/user_rate_blank.png" alt="" class="rating">
+
+                                                </h4>
+                                                <div class="msg-body">
+                                                Extremely poor outcome. I would never use this supplier again. The initial outcome bore no relationship to the proposal request. Repeated communication produced a second completely inadequate product that I will put in the garbage. I just paid to get out of the constant emails.
+                                                </div>
+                                                <span class="rating-date">Nov 20, 2020</span>
+                                            </li>
+                                        </ul>
+                                    </article>
+                                </div>
                             </div>
-                        </div>
+                        
                     </div>
                 </div>
 
