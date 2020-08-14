@@ -366,6 +366,35 @@
                         </div>
                     </div>
                 </div>
+                <div class="container-fluid bg-light">
+                    <div class="row">
+                        <div class="col-md-10 offset-md-1">
+                            <h2 class="p-2 mt-3">
+                                RECOMMENDED FOR YOU IN <a href="../user.php">miss_digimarket</a>
+                            </h2>
+                            <div class="row flex-wrap mb-3">
+                                <div class="col-lg-3 col-md-6 col-sm-6">
+                                    <div class="proposal-div">
+                                        <div class="proposal_nav">
+                                            <span class="float-left mt-2">
+                                                <strong class="ml-2 mr-1">By</strong>miss_digimarket
+                                            </span>
+                                            <span class="float-right mt-2">
+                                                <img src="../images/user_rate_full.png" alt="" class="rating">
+                                                <img src="../images/user_rate_full.png" alt="" class="rating">
+                                                <img src="../images/user_rate_full.png" alt="" class="rating">
+                                                <img src="../images/user_rate_blank.png" alt="" class="rating">
+                                                <img src="../images/user_rate_blank.png" alt="" class="rating">
+                                                <span class="ml-1 mr-2">(2)</span>
+                                            </span>
+                                            <div class="clearfix mb-2"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
    <?php include("../includes/footer.php"); ?>
 
    <script>
