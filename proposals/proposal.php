@@ -114,19 +114,19 @@
                                     </h4>
                                 </div>
                                 <div class="card-body">
-                                    <article id="id" class="proposal-reviews">
+                                    <article id="all" class="proposal-reviews">
                                         <ul class="reviews-list">
                                             <li class="star-rating-row">
                                                 <span class="user-picture">
-                                                    <img src="../images/brock.jpg" width="60" height="60" alt="">
+                                                    <img src="../user_images/brock.jpg" width="60" height="60" alt="">
                                                 </span>
                                                 <h4>
                                                     <a href="" class="mr-1">Brock Lesnar</a>
                                                     <img src="../images/user_rate_full.png" class="rating" alt="">
-                                                    <img src="../images/user_rate_blank.png" class="rating" alt="">
-                                                    <img src="../images/user_rate_blank.png" class="rating" alt="">
-                                                    <img src="../images/user_rate_blank.png" class="rating" alt="">
-                                                    <img src="../images/user_rate_blank.png" class="rating" alt="">
+                                                    <img src="../images/user_rate_full.png" class="rating" alt="">
+                                                    <img src="../images/user_rate_full.png" class="rating" alt="">
+                                                    <img src="../images/user_rate_full.png" class="rating" alt="">
+                                                    <img src="../images/user_rate_full.png" class="rating" alt="">
                                                 </h4>
                                                 <div class="msg-body">
                                                     Very Outstanding Work.
@@ -137,10 +137,10 @@
                                                 <h4>
                                                     <span class="mr-1">Seller's Feedback</span>
                                                     <img src="../images/user_rate_full.png" alt="" class="rating">
-                                                    <img src="../images/user_rate_blank.png" class="rating">
-                                                    <img src="../images/user_rate_blank.png" class="rating">
-                                                    <img src="../images/user_rate_blank.png" class="rating">
-                                                    <img src="../images/user_rate_blank.png" class="rating">
+                                                    <img src="../images/user_rate_full.png" class="rating">
+                                                    <img src="../images/user_rate_full.png" class="rating">
+                                                    <img src="../images/user_rate_full.png" class="rating">
+                                                    <img src="../images/user_rate_full.png" class="rating">
 
                                                 </h4>
                                                 <span class="user-picture">
@@ -154,7 +154,7 @@
 
                                             <li class="star-rating-row">
                                                 <span class="user-picture">
-                                                    <img src="../images/brock.jpg" width="60" height="60" alt="">
+                                                    <img src="../user_images/salman.jpg" width="60" height="60" alt="">
                                                 </span>
                                                 <h4>
                                                     <a href="" class="mr-1">Salman Khan</a>
@@ -187,8 +187,93 @@
 
                                                 </div>
                                             </li>
+                                            <hr>
+
                                         </ul>
                                     </article>
+
+                                    <article id="good" class="proposal-reviews">
+                                        <ul class="reviews-list">
+                                            <li class="star-rating-row">
+                                                <span class="user-picture">
+                                                    <img src="../user_images/brock.jpg" width="60" height="60" alt="">
+                                                </span>
+                                                <h4>
+                                                    <a href="" class="mr-1">Brock Lesnar</a>
+                                                    <img src="../images/user_rate_full.png" class="rating" alt="">
+                                                    <img src="../images/user_rate_full.png" class="rating" alt="">
+                                                    <img src="../images/user_rate_full.png" class="rating" alt="">
+                                                    <img src="../images/user_rate_full.png" class="rating" alt="">
+                                                    <img src="../images/user_rate_full.png" class="rating" alt="">
+                                                </h4>
+                                                <div class="msg-body">
+                                                    Very Outstanding Work.
+                                                </div>
+                                                <span class="rating-date">Nov 18, 2020</span>
+                                            </li>
+                                            <li class="rating-seller">
+                                                <h4>
+                                                    <span class="mr-1">Seller's Feedback</span>
+                                                    <img src="../images/user_rate_full.png" alt="" class="rating">
+                                                    <img src="../images/user_rate_full.png" class="rating">
+                                                    <img src="../images/user_rate_full.png" class="rating">
+                                                    <img src="../images/user_rate_full.png" class="rating">
+                                                    <img src="../images/user_rate_full.png" class="rating">
+
+                                                </h4>
+                                                <span class="user-picture">
+                                                    <img src="../user_images/miss_digimarket.jpg" width="40" height="40" alt="">
+                                                </span>
+                                                <div class="msg-body">
+                                                    Great buyer Thank You.
+                                                </div>
+                                            </li>
+                                            <hr>
+                                           
+                                        </ul>
+                                    </article>
+
+                                    <article id="bad" class="proposal-reviews">
+                                        <ul class="reviews-list">
+                                            <li class="star-rating-row">
+                                                <span class="user-picture">
+                                                    <img src="../user_images/salman.jpg" width="60" height="60" alt="">
+                                                </span>
+                                                <h4>
+                                                    <a href="" class="mr-1">Salman Khan</a>
+                                                    <img src="../images/user_rate_full.png" class="rating" alt="">
+                                                    <img src="../images/user_rate_blank.png" class="rating" alt="">
+                                                    <img src="../images/user_rate_blank.png" class="rating" alt="">
+                                                    <img src="../images/user_rate_blank.png" class="rating" alt="">
+                                                    <img src="../images/user_rate_blank.png" class="rating" alt="">
+                                                </h4>
+                                                <div class="msg-body">
+                                                Extremely poor outcome. I would never use this supplier again. The initial outcome bore no relationship to the proposal request. Repeated communication produced a second completely inadequate product that I will put in the garbage. I just paid to get out of the constant emails.
+                                                </div>
+                                                <span class="rating-date">Nov 18, 2020</span>
+                                            </li>
+                                            <li class="rating-seller">
+                                                <h4>
+                                                    <span class="mr-1">Seller's Feedback</span>
+                                                    <img src="../images/user_rate_full.png" alt="" class="rating">
+                                                    <img src="../images/user_rate_blank.png" class="rating">
+                                                    <img src="../images/user_rate_blank.png" class="rating">
+                                                    <img src="../images/user_rate_blank.png" class="rating">
+                                                    <img src="../images/user_rate_blank.png" class="rating">
+
+                                                </h4>
+                                                <span class="user-picture">
+                                                    <img src="../user_images/miss_digimarket.jpg" width="40" height="40" alt="">
+                                                </span>
+                                                <div class="msg-body">
+                                                This buyer does not give complete guideline to do her work and her behavior is very harsh.
+                                                </div>
+                                            </li>
+                                            <hr>
+                                           
+                                        </ul>
+                                    </article>
+
                                 </div>
                             </div>
                         </div>
