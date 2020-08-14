@@ -20,5 +20,26 @@
                 <i class="fa fa-map-marker m-1"></i> Pakistan
             </span>
         </div>
+        <span class="user-is-online">
+            <span class="text-success h6"><i class="fa fa-circle"></i></span>
+            <span>Online</span>
+        </span>
+    </div>
+    <a href="../conversations/message.php?seller_id" class="btn btn-primary mt-3">
+        Contact <small>(fixmywebsite)</small>
+   </a>
+</div>
+    
+    <div class="col-md-12 user-status">
+        <ul>
+            <li><i class="fa fa-user"></i>Member Since : <strong>April  2020</strong>
+            </li>
+            <li><i class="fa fa-truck fa-flip-horizontal"></i>
+                Recent Delivery : <strong>November 20, 2020</strong>
+            </li>
+            <li><i class="fa fa-clock-o"></i>
+                Seller Level : <strong>Level One</strong>
+            </li>
+        </ul>
     </div>
 </div>

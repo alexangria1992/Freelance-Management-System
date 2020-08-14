@@ -780,6 +780,28 @@ display: none;
     font-size: 17px;
 }
 
+/** User Profile Page Styles**/
+
+.user-header
+{
+    background:url(../images/user-background.jpg);
+    color: white;
+}
+
+.user-header .profile-image img 
+{
+    width: 160px;
+    height: 160px;
+}
+
+.user-header .profile-image .level_badge 
+{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 160px;
+    left: 130px;
+}
 /** Footer Styles **/
 
 
