@@ -859,3 +859,33 @@ display: none;
         max-width: 750px;
     }
 }
+
+/** Responsive Scrollbar For Small devices Styles **/
+
+@media (max-width: 991px){
+    ::-webkit-scrollbar{
+        -webkit-appearance: none;
+    }
+
+    ::-webkit-scrollbar-vertical{
+        width: 12px;
+    }
+    
+    ::-webkit-scrollbar-horizontal{
+        height: 12px;
+    }
+
+    ::-webkit-scrollbar-thumb{
+
+        background-color: 10px;
+        border-radius: 10px;
+        border: 1px solid #ffffff;
+    }
+
+    ::-webkit-scrollbar-track
+    {
+        border-radius: 10px;
+        background-color: #ffffff;
+    }
+
+}
