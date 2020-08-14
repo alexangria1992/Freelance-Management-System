@@ -205,6 +205,7 @@
                                                 </div>
                                                 <span class="rating-date">Nov 20, 2020</span>
                                             </li>
+                                            
                                             <hr>
 
 
@@ -228,6 +229,54 @@
                                             </li>
                                         </ul>
                                     </article>
+
+                                    <article id="good" class="proposal-reviews">
+                                        <ul class="reviews-list">
+                                            <li class="star-rating-row">
+                                                <span class="user-picture">
+                                                    <img src="user_images/brock.jpg" width="60" height="60" alt="">
+                                                </span>
+                                                <h4>
+                                                    <a href="" class="mr-1">Brock Lesnar</a>
+                                                    <img src="images/user_rate_full.png" alt="" class="rating">
+                                                    <img src="images/user_rate_full.png" alt="" class="rating">
+                                                    <img src="images/user_rate_full.png" alt="" class="rating">
+                                                    <img src="images/user_rate_full.png" alt="" class="rating">
+                                                    <img src="images/user_rate_full.png" alt="" class="rating">
+
+                                                </h4>
+                                                <div class="msg-body">
+                                                    Very outstanding Work.
+                                                </div>
+                                                <span class="rating-date">Nov 20, 2020</span>
+                                            </li>
+                                            <hr>
+                                        </ul>
+                                    </article>
+
+                                    <article id="bad" class="proposal-reviews">
+                                        <ul class="reviews-list">
+                                            <li class="star-rating-row">
+                                                <span class="user-picture">
+                                                    <img src="user_images/salman.jpg" width="60" height="60" alt="">
+                                                </span>
+                                                <h4>
+                                                    <a href="" class="mr-1">Salman Khan</a>
+                                                    <img src="images/user_rate_full.png" alt="" class="rating">
+                                                    <img src="images/user_rate_full.png" alt="" class="rating">
+                                                    <img src="images/user_rate_full.png" alt="" class="rating">
+                                                    <img src="images/user_rate_full.png" alt="" class="rating">
+                                                    <img src="images/user_rate_full.png" alt="" class="rating">
+
+                                                </h4>
+                                                <div class="msg-body">
+                                                Extremely poor outcome. I would never use this supplier again. The initial outcome bore no relationship to the proposal request. Repeated communication produced a second completely inadequate product that I will put in the garbage. I just paid to get out of the constant emails.
+                                                </div>
+                                                <span class="rating-date">Nov 20, 2020</span>
+                                            </li>
+                                      </ul>
+                                    </article>                            
+                                  
                                 </div>
                             </div>
                         
@@ -246,7 +295,44 @@
 
     <?php include("includes/footer.php"); ?>
    
+    <script>
+       $(document).ready(function(){
+           $("#good").hide();
+           $("#bad").hide();
+           $(".all").click(function(){
+               $("#dropdown-button").html("Most Recent");
+               $(".all").attr('class', 'dropdown-item all active');
+               $(".bad").attr('class', 'dropdown-item bad');
+               $(".good").attr('class', 'dropdown-item good ');
+               $("#all").hide();
+               $("#good").show();
+               $("#bad").hide();
 
+           });
+
+           $(".good").click(function(){
+               $("#dropdown-button").html("Positive Reviews");
+               $(".all").attr('class', 'dropdown-item all');
+               $(".bad").attr('class', 'dropdown-item bad');
+               $(".good").attr('class', 'dropdown-item good active');
+               $("#all").hide();
+               $("#good").show();
+               $("#bad").hide();
+
+           });
+
+           $(".bad").click(function(){
+               $("#dropdown-button").html("Negative Reviews");
+               $(".all").attr('class', 'dropdown-item all');
+               $(".bad").attr('class', 'dropdown-item bad active');
+               $(".good").attr('class', 'dropdown-item good');
+               $("#all").hide();
+               $("#good").hide();
+               $("#bad").show();
+
+           });
+       })
+   </script>
 
  
 </body>
