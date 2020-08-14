@@ -321,6 +321,46 @@
                                         <img src="../user_images/miss_digimarket.jpg" width="130" class="rounded-circle" alt="">
                                         <img src="../images/level_badge_1.png" width="55" class="seller_level_badge" alt="">
                                     </center>
+                                    <a href="../user.php" class="text-center"><h3>miss_digimarket</h3></a>
+                                    <h4 class="text-muted text-center">Level One</h4>
+                                    <hr>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <p class="text-muted">
+                                            From
+                                        </p>
+                                        <p> Pakistan </p>
+                                         </div>
+                                         <div class="col-md-6">
+                                             <p class="text-muted">
+                                                 Positive Ratings
+                                             </p>
+                                             <p>100%</p>
+                                         </div>
+                                         <div class="col-md-6">
+                                             <p class="text-muted">Speaks</p>
+                                             <p>Urdu, Hindi, English</p>
+                                         </div>
+                                         <div class="col-md-6">
+                                             <p class="text-muted">Recent Delivery</p>
+                                             <p>November 20 2020</p>
+                                         </div>
+                                     </div>
+                                     <hr>
+                                     <p>
+                                     We have made a special team of expertise belonging on different professions to serve you as a free lancers.So keep getting our services for your needs.
+
+                                     </p>
+                                     <a href="../user.php">Read More</a>
+                                </div>
+                                <div class="card-footer">
+                                    <p class="float-left online">
+                                        <i class="fa fa-check"></i>Online
+                                    </p>
+                                    <a href="../conversations/conversations/message.php?seller_id" class="float-right btn btn-primary">
+                                        <i class="fa fa-comment-o"></i>
+                                        Contact Us
+                                    </a>
                                 </div>
                             </div>
                         </div>
