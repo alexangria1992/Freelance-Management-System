@@ -38,6 +38,66 @@
 
                         </p>
                     </div>
+                    <div class="card-body">
+                        <center>
+                            <form action="contact.php" method="post" enctype="multipart/form-data" class="col-md-8 contact-form">
+                                <div class="form-group">
+                                    <label class="float-left">Select Enquiry Type </label>
+                                    <select name="enquiry_type" class="form-control select_tag" required>
+                                    <option value="" url="contact.php">Select Enquiry</option>
+                                    <option value="1" url="contact.php?enquiry_id">Order Support</option>
+                                    <option value="2" url="contact.php?enquiry_id">Review Removal</option>
+                                    <option value="3" url="contact.php?enquiry_id">Account Support</option>
+                                    <option value="4" url="contact.php?enquiry_id">Report A Bug</option>
+                                </select>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="float-left">Subject * </label>
+                                    <input type="text" class="form-control" name="subject" required>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="float-left">Message * </label>
+                                    <textarea name="message"  rows="6" class="form-control" required></textarea>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="float-left">Order Number * </label>
+                                    <input type="text" name="order_number" class="form-control">
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="float-left">Order Rule * </label>
+                                    <select name="order_rule" class="form-control" required>
+                                    <option class="hidden">Select Order Rule</option>
+                                </select>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="float-left">Select Enquiry Type </label>
+                                    <select name="enquiry_type" class="form-control select_tag" required>
+                                    <option value="" url="contact.php">Select Enquiry</option>
+                                    <option value="1" url="contact.php?enquiry_id">Order Support</option>
+                                    <option value="2" url="contact.php?enquiry_id">Review Removal</option>
+                                    <option value="3" url="contact.php?enquiry_id">Account Support</option>
+                                    <option value="4" url="contact.php?enquiry_id">Report A Bug</option>
+                                </select>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="float-left">Select Enquiry Type </label>
+                                    <select name="enquiry_type" class="form-control select_tag" required>
+                                    <option value="" url="contact.php">Select Enquiry</option>
+                                    <option value="1" url="contact.php?enquiry_id">Order Support</option>
+                                    <option value="2" url="contact.php?enquiry_id">Review Removal</option>
+                                    <option value="3" url="contact.php?enquiry_id">Account Support</option>
+                                    <option value="4" url="contact.php?enquiry_id">Report A Bug</option>
+                                </select>
+                                </div>
+                            </form>
+                        </center>
+                    </div>
                 </div>
             </div>
 
