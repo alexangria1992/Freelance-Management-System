@@ -14,6 +14,9 @@
     <link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet" > 
     <link href="../styles/owl.carousel.css" rel="stylesheet"> 
     <link href="../styles/owl.theme.default.css" rel="stylesheet" >  
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5f3608feeca9e8d2"></script>
+
 </head>
 
 <body>
@@ -272,6 +275,52 @@
                                         </ul>
                                     </article>
 
+                                </div>
+                            </div>
+                            <div class="proposal-tags-container mt-2">
+                                <div class="proposal-tag mb-3"><span>Video Promotion</span></div>
+                                <div class="proposal-tag mb-3"><span>Video Promotion</span></div>
+                                <div class="proposal-tag mb-3"><span>Video Promotion</span></div>
+                                <div class="proposal-tag mb-3"><span>Video Promotion</span></div>
+                                <div class="proposal-tag mb-3"><span>Video Promotion</span></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-5 proposal-sidebar">
+                            <div class="card mb-3 rounded-0">
+                                <div class="card-body">
+                                    <h3><strong class="text-success">Order Details</strong></h3>
+                                    <h4><i class="fa fa-clock-o">&nbsp; 3 Days Delivery</i></h4>
+                                    <form action="../checkout.php">
+                                        <input type="hidden" name="proposal_id" value="1">
+                                        <button class="btn btn-lg button-lgl btn-success" type="submit" name="add_order">Order Now ($5)</button>
+                                        <button class="btn btn-lg button-lgl btn-success" type="submit" name="add_cart"><i class="fa fa-lg fa-shopping-cart"></i></button>
+                                        <hr>   
+                                         <div class="form-group row">
+                                             <label  class="col-md-6 control-label">Proposal Quantity</label>
+                                             <div class="col-md-6">
+                                                 <select name="proposal_qty" class="form-control">
+                                                     <option>1</option>
+                                                     <option>2</option>
+                                                     <option>3</option>
+                                                     <option>4</option>
+                                                 </select>
+                                             </div>
+                                         </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <center class="mb-3">
+                                
+                                <!-- Go to www.addthis.com/dashboard to customize your tools -->
+                                <div class="addthis_inline_share_toolbox"></div>
+                            
+                            </center>
+                            <div class="card seller-bio mb-3 rounded-0">
+                                <div class="card-body">
+                                    <center class="mb-4">
+                                        <img src="../user_images/miss_digimarket.jpg" width="130" class="rounded-circle" alt="">
+                                        <img src="../images/level_badge_1.png" width="55" class="seller_level_badge" alt="">
+                                    </center>
                                 </div>
                             </div>
                         </div>
