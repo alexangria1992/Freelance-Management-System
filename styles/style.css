@@ -120,6 +120,53 @@ button, input[type=submit]
     border-bottom: 1px solid #ccc;
 }
 
+.header-message-div-unread 
+{
+    background: #ebf2f5;
+    padding: 9px 14px;
+    padding-bottom: 0px;
+    border-bottom: 1px solid #ccc;
+}
+
+.header-message-div a:hover,
+.header-message-div-unread a:hover 
+{
+    text-decoration: none;
+}
+
+.header-message-div .heading,
+.header-message-div-unread .heading
+{
+    position: relative;
+    margin-left: 10px;
+    top: -15px;
+    color: black;
+    font-size: 15px;
+}
+
+.header-message-div .message,
+.header-message-div-unread .message 
+{
+    font-size: 15px;
+    position: relative;
+    margin-left: 55px;
+    top: -32px;
+    left: 10px;
+    color: black;
+}
+
+.header-message-div .date,
+.header-message-div-unread .date
+{
+    position: relative;
+    margin-left: 55px;
+    margin-bottom: 0px;
+    top: -40px;
+    left: 10px;
+    height: 0px;
+    font-size: 14px;
+}
+
 /* Register Login & forgot password modal styles */
 
 .modal-form.register
