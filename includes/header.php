@@ -109,8 +109,8 @@
                 </li>
 
                 <li class="nav-item dropdown">
-                    <a href="favourites.php" class="nav-link mr-lg-2"></a>
-                    <i class="fa fa-f-w fa-lg fa-heart"></i>
+                    <a href="favourites.php" title="Favourites" class="nav-link mr-lg-2">
+                    <i class="fa fa-fw fa-lg fa-heart"></i>
                     <span class="d-lg-none">
                         Favourites <span class="badge badge-pill badge-success">4</span>
                     </span>
@@ -118,7 +118,23 @@
                         <i class="fa fa-fw fa-circle"></i>
                         <span class="number">4</span>
                     </span>
+                    </a>
                 </li>
+
+                <li class="nav-item dropdown">
+                    <a href="cart.php" title="Cart" class="nav-link mr-lg-2">
+                    <i class="fa fa-fw fa-lg fa-shopping-cart"></i>
+                    <span class="d-lg-none">
+                        Cart <span class="badge badge-pill badge-success">7</span>
+                    </span>
+                    <span class="new-indicator text-success d-lg-block d-none">
+                        <i class="fa fa-fw fa-circle"></i>
+                        <span class="number">7</span>
+                    </span>
+                    </a>
+                </li>
+
+               
             </ul>
         </div>
     </div>

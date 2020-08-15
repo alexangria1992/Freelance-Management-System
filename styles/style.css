@@ -14,6 +14,8 @@ button, input[type=submit]
     cursor: pointer !important;
 }
 
+/** Top Navbar Styles **/
+
 .navbar .navbar-toggler i:first-child {
     font-size: 1.5rem;
 }
@@ -37,6 +39,31 @@ button, input[type=submit]
     .collapse.navbar-collapse hr 
     {
         display: block !important; border-top: 1px solid #fff;
+    }
+
+    .navbar-login .collapse.navbar-collapse
+    {
+        height: 360px;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+
+    .navbar-login .navbar-nav>.nav-item .nav-link 
+    {
+        font-size: 15px;
+    }
+
+    
+    .navbar-login .navbar-nav>.nav-item:last-child 
+    {
+        margin-top: 10px;
+    }
+
+    .navbar-login .collapse .dropdown-menu 
+    {
+        position: relative;
+        width: 80% !important;
+
     }
 }
 
