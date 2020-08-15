@@ -104,7 +104,10 @@
     <script>
 
         $(document).ready(function(){
-            
+            $(".select_tag").change(function(){
+                url = $(".select_tag option:selected").attr('url');
+                window.location.href = url;
+            })
         })
     </script>
 
