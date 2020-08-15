@@ -167,6 +167,20 @@ button, input[type=submit]
     font-size: 14px;
 }
 
+.navbar-login .collapse.navbar-collapse .nav-item .btn
+{
+    margin-top: 0px;
+    color: #fff !important;
+}
+
+.dropdown-submenu 
+{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #e9e9e9;
+
+}
+
 /* Register Login & forgot password modal styles */
 
 .modal-form.register

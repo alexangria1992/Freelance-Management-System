@@ -170,7 +170,7 @@
                                 Orders
                             </a>
                             <a href="purchases.php" class="dropdown-item">
-                                Purchases
+                                Payments
                             </a>
                             <a href="favourites.php" class="dropdown-item">
                                 Favourites
@@ -186,6 +186,7 @@
                             <a href="requests/manage_requests.php" class="dropdown-item">
                             Manage Requests
                             </a>
+                        </div>
                             <a href="requests/manage_requests.php" data-target="#contacts" data-toggle="collapse" class="dropdown-item dropdown-toggle">
                             Contacts
                             </a>
@@ -207,6 +208,22 @@
                             <a href="user.php" class="dropdown-item">
                                 My Profile
                             </a>
+                            <a href="#" class="dropdown-item dropdown-toggle" data-toggle="collapse" data-target="#settings">
+                                Settings
+                            </a>
+                            <div id="settings" class="dropdown-submenu collapse">
+                                <a href="settings.php?profile_settings" class="dropdown-item">
+                                    Profile Settings
+                                </a>
+                                <a href="settings.php?account_settings" class="dropdown-item">
+                                    Account Settings
+                                </a>
+                            </div>
+                            <div class="dropdown-divider"></div>
+                                <a href="logout.php" class="dropdown-item">
+                                    Logout
+                                </a>
+                            
                         </div>
                     </div>
                 </li>
