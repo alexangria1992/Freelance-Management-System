@@ -74,6 +74,29 @@
                         </div>
                     </div>
                 </li>
+                <li class="nav-item dropdown">
+                    <a href="" data-toggle="dropdown" class="nav-link dropdown-toggle mr-lg-2">
+                        <i class="fa fa-fw fa-lg fa-envelope"></i>
+                        <span class="d-lg-none">Messages <span class="badge badge-pill badge-danger">1 New</span></span>
+                        <span class="new-indicator text-danger d-lg-block d-none">
+                            <i class="fa fa-fw fa-circle"></i>
+                            <span class="number">1</span>
+                        </span>
+                    </a>
+                    <div class="dropdown-menu messages-dropdown">
+                        <h3 class="dropdown-header">
+                            Inbox(1)
+                            <a href="conversations/inbox.php" class="float-right">View Inbox</a>
+                        </h3>
+                        <div class="header-message-div-unread">
+                            <a href="dashboard.php?n_id">
+                                <img src="user_images/brock.jpg" width="60" height="60" class="rounded-circle" alt="">
+                                <strong class="heading"></strong>
+                                <p class="message text-truncate"></p>
+                            </a>
+                        </div>
+                    </div>
+                </li>
             </ul>
         </div>
     </div>
