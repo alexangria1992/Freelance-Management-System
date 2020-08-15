@@ -134,6 +134,28 @@
                     </a>
                 </li>
 
+                <li class="nav-item">
+                    <div class="dropdown">
+                        <button class="btn btn-outline-secondary btn-sm dropdown-toggle" data-toggle="dropdown">
+                            <img src="user_images/fixmywebsite.jpg" width="27" height="27" alt="" class="rounded-circle">
+                            fixmywebsite <span class="badge badge-success"> $172</span>
+                        </button>
+                        <div class="dropdown-menu">
+                            <a href="dashboard.php" class="dropdown-item">
+                                Dashboard
+                            </a>
+                            <a href="" data-target="#selling" data-toggle="collapse" class="dropdown-item dropdown-toggle">
+                                Selling
+                            </a>
+                        </div>
+                        <div id="selling" class="dropdown-submenu collapse">
+                            
+                        </div>
+                    </div>
+                </li>
+
+
+
                
             </ul>
         </div>
