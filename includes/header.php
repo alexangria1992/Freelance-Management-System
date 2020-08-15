@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-login fixed-top">
     <div class="container">
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
@@ -48,7 +48,31 @@
                             Notifications
                             <span class="badge badge-pill badge-danger">1 New</span>
                         </span>
+                        <span class="new-indicator text-danger d-lg-block d-none">
+                            <i class="fa fa-fw fa-circle"></i>
+                            <span class="number">1</span>
+                        </span>
                     </a>
+                    <div class="dropdown-menu notifications-dropdown">
+                        <h3 class="dropdown-header">
+                            Notifications(1)
+                            <a href="dashboard.php" class="float-right">View Dashboard</a>
+                        </h3>
+                        <div class="header-message-div">
+                            <a href="dashboard.php?n_id">
+                                <img src="user_images/salman.jpg" width="60" height="60" class="rounded-circle">
+                                <strong class="heading">Salman Khan</strong>
+                                <p class="message">Complete Your Order</p>
+                                <p class="date text-muted">26:11: Nov 08 2020</p>
+                            </a>
+                            <a href="dashboard.php?n_id">
+                                <img src="user_images/salman.jpg" width="60" height="60" class="rounded-circle">
+                                <strong class="heading">Salman Khan</strong>
+                                <p class="message">Complete Your Order</p>
+                                <p class="date text-muted">26:11: Nov 08 2020</p>
+                            </a>
+                        </div>
+                    </div>
                 </li>
             </ul>
         </div>
