@@ -75,7 +75,7 @@
                     </div>
                 </li>
                 <li class="nav-item dropdown">
-                    <a href="" data-toggle="dropdown" class="nav-link dropdown-toggle mr-lg-2">
+                    <a href="" title="Inbox Messages" data-toggle="dropdown" class="nav-link dropdown-toggle mr-lg-2">
                         <i class="fa fa-fw fa-lg fa-envelope"></i>
                         <span class="d-lg-none">Messages <span class="badge badge-pill badge-danger">1 New</span></span>
                         <span class="new-indicator text-danger d-lg-block d-none">
@@ -89,13 +89,35 @@
                             <a href="conversations/inbox.php" class="float-right">View Inbox</a>
                         </h3>
                         <div class="header-message-div-unread">
-                            <a href="dashboard.php?n_id">
+                            <a href="conversations/insert_message.php?single_message_id">
                                 <img src="user_images/brock.jpg" width="60" height="60" class="rounded-circle" alt="">
                                 <strong class="heading"></strong>
-                                <p class="message text-truncate"></p>
+                                <p class="message text-truncate">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                                <p class="date text-muted">26:11: Nov 26 2020</p>
+                            </a>
+                        </div>
+
+                        <div class="header-message-div">
+                            <a href="conversations/insert_message.php?single_message_id">
+                                <img src="user_images/brock.jpg" width="60" height="60" class="rounded-circle" alt="">
+                                <strong class="heading"></strong>
+                                <p class="message text-truncate">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                                <p class="date text-muted">26:11: Nov 26 2020</p>
                             </a>
                         </div>
                     </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a href="favourites.php" class="nav-link mr-lg-2"></a>
+                    <i class="fa fa-f-w fa-lg fa-heart"></i>
+                    <span class="d-lg-none">
+                        Favourites <span class="badge badge-pill badge-success">4</span>
+                    </span>
+                    <span class="new-indicator text-success d-lg-block d-none">
+                        <i class="fa fa-fw fa-circle"></i>
+                        <span class="number">4</span>
+                    </span>
                 </li>
             </ul>
         </div>
