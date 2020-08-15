@@ -58,7 +58,7 @@
                             Notifications(1)
                             <a href="dashboard.php" class="float-right">View Dashboard</a>
                         </h3>
-                        <div class="header-message-div">
+                        <div class="header-message-div-unread">
                             <a href="dashboard.php?n_id">
                                 <img src="user_images/salman.jpg" width="60" height="60" class="rounded-circle">
                                 <strong class="heading">Salman Khan</strong>

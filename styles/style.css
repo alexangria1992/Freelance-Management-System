@@ -29,7 +29,7 @@ button, input[type=submit]
     color: #fff !important;
 }
 
-.navbar-nav .nav--item .btn 
+.navbar-nav .nav-item .btn 
 {
     margin-top: 1px;
 }
@@ -65,6 +65,59 @@ button, input[type=submit]
         width: 80% !important;
 
     }
+}
+
+.navbar-login .navbar-nav > .nav-item.dropdown > .nav-link .new-indicator
+{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 1.1rem;
+}
+
+.navbar-login .navbar-nav > .nav-item.dropdown > .nav-link .number
+{
+    position: absolute;
+    top: 6px;
+    left: 0;
+    width: 22.625px;
+    text-align: center;
+    color: white;
+    font-size: 0.5rem;
+}
+
+.navbar-login .collapse .dropdown-menu.notifications-dropdown,
+.navbar-login .collapse .dropdown-menu.messages-dropdown
+{
+    width: 370px;
+}
+
+@media (max-width: 66em)
+{
+    
+
+.navbar-login .collapse .dropdown-menu.notifications-dropdown,
+.navbar-login .collapse .dropdown-menu.messages-dropdown{
+    width: 340px;
+}
+}
+
+.notifications-dropdown .dropdown-header, 
+.messages-dropdown .dropdown-header
+{
+    margin-top: -7px;
+    padding: 8px 14px;
+    color: inherit;
+    font-size: 15px;
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.header-message-div 
+{
+    padding: 9px 14px;
+    padding-bottom: 0px;
+    border-bottom: 1px solid #ccc;
 }
 
 /* Register Login & forgot password modal styles */
