@@ -898,6 +898,63 @@ display: none;
     font-size: 15px;
 }
 
+/** Change Password Styles **/
+
+.change-pass #meter_wrapper {
+	
+	border:1px solid gray;
+	
+	width:202px;
+	
+	height:25px;
+	
+	border-radius:3px;
+}
+
+
+.change-pass #meter {
+	
+	height:23px;
+	
+}
+
+.change-pass #pass_type {
+	
+	font-size:15px;
+	
+	margin-top:13px;
+	
+	position:absolute;
+	
+	top:0;
+	
+	right:90px;
+	
+	font-weight:bold;
+	
+	color:black;
+	
+}
+
+
+@media (max-width: 580px){
+	
+	.change-pass .input-group .input-group-addon:last-child{ 
+	
+	display:none;
+	
+	}
+	
+	
+	.change-pass .input-group input {
+		
+		border-radius:3px !important;
+		
+	}
+	
+}
+
+
 /** Footer Styles **/
 
 
