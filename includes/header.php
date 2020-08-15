@@ -144,12 +144,69 @@
                             <a href="dashboard.php" class="dropdown-item">
                                 Dashboard
                             </a>
-                            <a href="" data-target="#selling" data-toggle="collapse" class="dropdown-item dropdown-toggle">
+                            <a href="#" data-target="#selling" data-toggle="collapse" class="dropdown-item dropdown-toggle">
                                 Selling
                             </a>
-                        </div>
+                        
                         <div id="selling" class="dropdown-submenu collapse">
-                            
+                            <a href="selling_orders.php" class="dropdown-item">
+                                Orders
+                            </a>
+                            <a href="proposals/view_proposals.php" class="dropdown-item">
+                                View Proposals
+                            </a>
+                            <a href="requests/buyer_requests.php" class="dropdown-item">
+                                Buyer Requests
+                            </a>
+                            <a href="revenue.php" class="dropdown-item">
+                                Revenues
+                            </a>
+                        </div>
+                        <a href="" data-target="#buying" data-toggle="collapse" class="dropdown-item dropdown-toggle">
+                            Buying
+                        </a>
+                        <div id="buying" class="dropdown-submenu collapse">
+                            <a href="buying_orders.php" class="dropdown-item">
+                                Orders
+                            </a>
+                            <a href="purchases.php" class="dropdown-item">
+                                Purchases
+                            </a>
+                            <a href="favourites.php" class="dropdown-item">
+                                Favourites
+                            </a>
+                        </div>
+                        <a href="" data-toggle="collapse" data-target="#requests" class="dropdown-item dropdown-toggle">
+                            Requests
+                        </a>
+                        <div id="requests" class="dropdown-submenu collapse">
+                            <a href="requests/post_request.php" class="dropdown-item">
+                        Post A Request
+                            </a>
+                            <a href="requests/manage_requests.php" class="dropdown-item">
+                            Manage Requests
+                            </a>
+                            <a href="requests/manage_requests.php" data-target="#contacts" data-toggle="collapse" class="dropdown-item dropdown-toggle">
+                            Contacts
+                            </a>
+                            <div id="contacts" class="dropdown-submenu collapse">
+                                <a href="manage_contacts.php?my_buyers" class="dropdown-item">
+                                    My Buyers
+                                </a>
+                                <a href="manage_contacts.php?my_sellers" class="dropdown-item">
+                                    My Sellers
+                                </a>
+                            </div>
+
+                            <a href="my_referrals.php" class="dropdown-item">
+                                My Referrals
+                            </a>
+                            <a href="conversations/inbox.php" class="dropdown-item">
+                                inbox Conversations
+                            </a>
+                            <a href="user.php" class="dropdown-item">
+                                My Profile
+                            </a>
                         </div>
                     </div>
                 </li>
