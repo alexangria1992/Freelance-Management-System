@@ -23,7 +23,7 @@
             <hr>
 
             <ul class="navbar-nav">
-                <li class="nav-item-active">
+                <!-- <li class="nav-item-active">
                     <a href="./index.php" class="nav-link">Home</a>
                 </li>
                 <li class="nav-item">
@@ -34,6 +34,21 @@
                 </li>
                 <li class="nav-item">
                     <a href="" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#register-modal">Sign Up</a>
+                </li> -->
+                <li class="nav-item">
+                    <a href="dashboard.php" class="nav-link">
+                    <i class="fa fa-lg fa-dashboard"></i>
+                    <span class="d-lg-none">Dashboard</span>
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="" data-toggle="dropdown" title="Notifications" class="nav-link dropdown-toggle mr-lg-2">
+                        <i class="fa fa-fw fa-lg fa-bell"></i>
+                        <span class="d-lg-none">
+                            Notifications
+                            <span class="badge badge-pill badge-danger">1 New</span>
+                        </span>
+                    </a>
                 </li>
             </ul>
         </div>
