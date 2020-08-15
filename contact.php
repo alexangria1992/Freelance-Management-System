@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <link href="styles/owl.carousel.css" rel="stylesheet">
     <link rel="stylesheet" href="styles/owl.theme.default.css">
+    <script src="https://www.google.com/recaptcha/api.js"></script>
 
 </head>
 <body>
@@ -71,29 +72,24 @@
                                     <label class="float-left">Order Rule * </label>
                                     <select name="order_rule" class="form-control" required>
                                     <option class="hidden">Select Order Rule</option>
+                                    <option>Buyer</option>
+                                    <option>Seller</option>
                                 </select>
                                 </div>
 
                                 <div class="form-group">
-                                    <label class="float-left">Select Enquiry Type </label>
-                                    <select name="enquiry_type" class="form-control select_tag" required>
-                                    <option value="" url="contact.php">Select Enquiry</option>
-                                    <option value="1" url="contact.php?enquiry_id">Order Support</option>
-                                    <option value="2" url="contact.php?enquiry_id">Review Removal</option>
-                                    <option value="3" url="contact.php?enquiry_id">Account Support</option>
-                                    <option value="4" url="contact.php?enquiry_id">Report A Bug</option>
-                                </select>
+                                    <label class="float-left">Attachment</label>
+                                    <input type="file" class="form-control" name="file">
                                 </div>
 
                                 <div class="form-group">
-                                    <label class="float-left">Select Enquiry Type </label>
-                                    <select name="enquiry_type" class="form-control select_tag" required>
-                                    <option value="" url="contact.php">Select Enquiry</option>
-                                    <option value="1" url="contact.php?enquiry_id">Order Support</option>
-                                    <option value="2" url="contact.php?enquiry_id">Review Removal</option>
-                                    <option value="3" url="contact.php?enquiry_id">Account Support</option>
-                                    <option value="4" url="contact.php?enquiry_id">Report A Bug</option>
-                                </select>
+                                    <label>Please Verify That You Are Human </label>
+                                  <div class="g-recaptcha" data-sitekey="6LfQ-L4ZAAAAAHGw7rd1Fm2baI636jztABYZWJMH"></div>
+                                </div>
+                                <div class="text-center">
+                                        <button type="submit" name="submit" class="btn btn-primary btn-lg">
+                                        <i class="fa fa-user-md"></i> Send Message
+                                    </button>
                                 </div>
                             </form>
                         </center>
@@ -105,7 +101,12 @@
 
     <?php include("includes/footer.php"); ?>
 
+    <script>
 
+        $(document).ready(function(){
+            
+        })
+    </script>
 
  
 </body>
