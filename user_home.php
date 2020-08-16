@@ -66,6 +66,35 @@
         <div class="col-md-3">
             <?php include("includes/user_home_sidebar.php"); ?>
         </div>
+        <div class="col-md-9">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Featured Proposals</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 flex-wrap">
+                    <div class="owl-carousel user-home-featured-carouse owl-theme">
+                        <div class="proposal-div">
+                            <div class="proposal_nav">
+                                <span class="float-left mt-2">
+                                    <strong class="ml-2 mr-1">By</strong>miss_digi_market
+                                </span>
+                                <span class="float-right mt-2">
+                                    <img src="images/user_rate_full.png" alt="" class="rating">
+                                    <img src="images/user_rate_full.png" alt="" class="rating">
+                                    <img src="images/user_rate_full.png" alt="" class="rating">
+                                    <img src="images/user_rate_full.png" alt="" class="rating">
+                                    <img src="images/user_rate.blank.png" alt="" class="rating">
+                                    <span class="ml-1 mr-2"></span>
+                                    </span>
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 </div>
