@@ -61,5 +61,11 @@
 <a href="#myCarousel" data-slide="next" class="carousel-control-next">
     <span class="carousel-control-next-icon"></span>
 </a>
-
+<div class="container0fluid mt-5">
+    <div class="row">
+        <div class="col-md-3">
+            <?php include("includes/user_home_sidebar.php"); ?>
+        </div>
+    </div>
+</div>
 </div>
