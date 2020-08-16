@@ -310,11 +310,41 @@
                             <div class="ribbon-background"></div>
                         </div>
                       </div>
-
-
                      </div>  
                  </div>
                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>Recent Buyer Requests</h2>
+                    </div>
+                </div>
+                <div class="row buyer-requests">
+                    <div class="col-md-12">
+                        <div class="table-responsive box-table">
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>Request</th>
+                                        <th>Offers</th>
+                                        <th>Duration</th>
+                                        <th>Budget</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr id="request_tr_1">
+                                        <td>
+                                            <img src="user_images/brock.jpg" alt="" class="request-img rounded-circle">
+                                            <div>
+                                                
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
            </div>
        </div>
     </div>
