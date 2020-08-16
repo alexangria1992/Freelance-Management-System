@@ -360,6 +360,17 @@
                                             $(document).on("mouseleave", "#request_tr_1", function(){
                                                 $(".send_button_1").css("visibility", "hidden");
                                             });
+
+                                            $(".send_button_1").click(function(){
+                                                request_id = "";
+                                                $.ajax({
+                                                    method: "POST",
+                                                    url: "requests/send_offer_modal.php",
+                                                    data: {request_id: request_id}
+                                                }).done(function(data){
+                                                    $(".append-modal").html(data);
+                                                });
+                                            })
                                         </script>
                                     </tr>
 
@@ -391,6 +402,18 @@
                                             $(document).on("mouseleave", "#request_tr_2", function(){
                                                 $(".send_button_2").css("visibility", "hidden");
                                             });
+
+                                            
+                                            $(".send_button_2").click(function(){
+                                                request_id = "";
+                                                $.ajax({
+                                                    method: "POST",
+                                                    url: "requests/send_offer_modal.php",
+                                                    data: {request_id: request_id}
+                                                }).done(function(data){
+                                                    $(".append-modal").html(data);
+                                                });
+                                            })
                                         </script>
                                     </tr>
 
@@ -421,6 +444,18 @@
                                             $(document).on("mouseleave", "#request_tr_3", function(){
                                                 $(".send_button_3").css("visibility", "hidden");
                                             });
+
+                                            
+                                            $(".send_button_3").click(function(){
+                                                request_id = "";
+                                                $.ajax({
+                                                    method: "POST",
+                                                    url: "requests/send_offer_modal.php",
+                                                    data: {request_id: request_id}
+                                                }).done(function(data){
+                                                    $(".append-modal").html(data);
+                                                });
+                                            })
                                         </script>
                          
 
@@ -441,4 +476,8 @@
 
            </div>
        </div>
+    </div>
+
+    <div class="append-modal">
+
     </div>
