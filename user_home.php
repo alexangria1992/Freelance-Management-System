@@ -431,7 +431,8 @@
                                         <td class="text-success">
                                             $200
                                             <br>
-                                            <button class="btn btn-success btn-sm mt-4 send_button_3">
+                                            <button class="btn btn-success btn-sm mt-4 send_button_3" data-toggle="modal"
+                                            data-target="#quota-finish">
                                                 Send Offer
                                             </button>
                                         </td>
@@ -446,16 +447,7 @@
                                             });
 
                                             
-                                            $(".send_button_3").click(function(){
-                                                request_id = "";
-                                                $.ajax({
-                                                    method: "POST",
-                                                    url: "requests/send_offer_modal.php",
-                                                    data: {request_id: request_id}
-                                                }).done(function(data){
-                                                    $(".append-modal").html(data);
-                                                });
-                                            })
+                                         
                                         </script>
                          
 
@@ -480,4 +472,17 @@
 
     <div class="append-modal">
 
+    </div>
+
+    <div id="quota-finish" class="modal fade">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <h5 class="modal-titile h5">
+                          Request Quota Finished
+                      </h5>
+                      <button class="close" data-dismiss="modal">&times; </button>
+                  </div>
+              </div>
+          </div>                                              
     </div>
