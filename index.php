@@ -15,7 +15,7 @@
 </head>
 <body>
     <?php include("includes/header.php"); ?>
-    <?php include("home.php"); ?>
+    <?php include("user_home.php"); ?>
     <?php include("includes/footer.php"); ?>
 
 
