@@ -438,6 +438,12 @@ button, input[type=submit]
 
 }
 
+.proposal-div .favorited
+{
+    color: #28a745 !important;
+}
+
+
 .proposal-div .text .buttons 
 {
     text-align: center;
