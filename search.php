@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <link href="styles/owl.carousel.css" rel="stylesheet">
     <link rel="stylesheet" href="styles/owl.theme.default.css">
+    <script src="js/jquery.min.js"></script>
+
 
 </head>
 <body class="bg-white">

@@ -90,7 +90,6 @@ ComputerFever.com
 
 
 
- <script src="http://localhost/FMS/Freelance-Management-System/js/jquery.min.js"></script>
      <script src="http://localhost/FMS/Freelance-Management-System/js/popper.min.js"></script>
      <script src="http://localhost/FMS/Freelance-Management-System/js/bootstrap.min.js"></script>
     <script src="http://localhost/FMS/Freelance-Management-System/js/owl.carousel.min.js"></script>

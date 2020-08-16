@@ -12,6 +12,8 @@
     <link href="styles/owl.carousel.css" rel="stylesheet">
     <link rel="stylesheet" href="styles/owl.theme.default.css">
     <script src="https://www.google.com/recaptcha/api.js"></script>
+    <script src="js/jquery.min.js"></script>
+
 
 </head>
 <body>

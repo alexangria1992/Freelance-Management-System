@@ -313,6 +313,7 @@
                      </div>  
                  </div>
                </div>
+               
                 <div class="row">
                     <div class="col-md-12">
                         <h2>Recent Buyer Requests</h2>
@@ -350,6 +351,16 @@
                                             </button>
                                         </td>
 
+                                        <script>
+                                            $(".send_button_1").css("visibility", "hidden");
+                                            $(document).on("mouseenter", "#request_tr_1", function(){
+                                                $(".send_button_1").css("visibility", "visible");
+                                            });
+
+                                            $(document).on("mouseleave", "#request_tr_1", function(){
+                                                $(".send_button_1").css("visibility", "hidden");
+                                            });
+                                        </script>
                                     </tr>
 
                                     <tr id="request_tr_2">
@@ -371,6 +382,16 @@
                                             </button>
                                         </td>
 
+                                         <script>
+                                            $(".send_button_2").css("visibility", "hidden");
+                                            $(document).on("mouseenter", "#request_tr_2", function(){
+                                                $(".send_button_2").css("visibility", "visible");
+                                            });
+
+                                            $(document).on("mouseleave", "#request_tr_2", function(){
+                                                $(".send_button_2").css("visibility", "hidden");
+                                            });
+                                        </script>
                                     </tr>
 
                                     <tr id="request_tr_3">
@@ -391,6 +412,17 @@
                                                 Send Offer
                                             </button>
                                         </td>
+                                        <script>
+                                            $(".send_button_3").css("visibility", "hidden");
+                                            $(document).on("mouseenter", "#request_tr_3", function(){
+                                                $(".send_button_3").css("visibility", "visible");
+                                            });
+
+                                            $(document).on("mouseleave", "#request_tr_3", function(){
+                                                $(".send_button_3").css("visibility", "hidden");
+                                            });
+                                        </script>
+                         
 
                                     </tr>
                                 </tbody>
