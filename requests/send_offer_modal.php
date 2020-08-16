@@ -46,8 +46,18 @@
     </div>
 </div>
 
+
+<div id="submit-proposal-details" class="modal fade">
+    <div class="modal-dialog">
+        
+    </div>
+</div>
 <script>
     $(document).ready(function(){
         $("#send-offer-modal").modal("show");
+        $("#submit-proposal").attr("disabled", "disabled");
+        $(".radio-custom-label").click(function(){
+            $("#submit-proposal").removeAttr("disabled");
+        })
     })
 </script>

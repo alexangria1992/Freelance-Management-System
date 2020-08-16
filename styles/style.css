@@ -1227,6 +1227,78 @@ display: none;
     padding: 15px;
 }
 
+.modal-body .request-proposals-list .proposal-picture img 
+{
+    border-radius: 2%;
+    width: 74px !important;
+    height: 53px !important;
+}
+
+.modal-body .request-proposals-list .proposal-title
+{
+    margin-left: 135px;
+    margin-top: -50px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #0e0e0f;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.modal-body .request-proposals-list hr  
+{
+    margin-left:-15px !important;
+    margin-right:-15px !important;
+}
+
+.modal-body .request-proposals-list hr:last-child 
+{
+    display: none;
+}
+
+
+.modal-body .radio-custom 
+{
+    opacity: 0;
+    position: absolute;
+    outline: 0px;
+}
+
+.modal-body .radio-custom,
+.modal-body .radio-custom-label
+{
+    margin: 5px;
+    cursor: pointer;
+}
+
+.modal-body .radio-custom + .radio-custom-label:before
+{
+    content: '';
+    background: #fff;
+    border: 2px solid #ddd;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+    margin-right: 10px;
+
+}
+
+
+.modal-body .radio-custom:checked + .radio-custom-label:before
+{
+    background: #ccc;
+    box-shadow: inset 0px 0px 0px 4px #fff;
+}
+
+
+
+
+
+
+
 
 /** Footer Styles **/
 
