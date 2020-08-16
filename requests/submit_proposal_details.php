@@ -54,3 +54,22 @@
         <button type="submit" class="btn btn-success">Submit Offer</button>
     </div>
 </div>
+
+<div id="insert_offer"></div>
+
+<script>
+    $(document).ready(function(){
+        $("#proposal-details-form").submit(function(event){
+            event.preventDefault();
+
+            $.ajax({
+                metod: "POST",
+                url: "requests/insert_offer.php",
+                data: $("#proposal-details-form").serialize()
+            }).done(function(data){
+                $("#submit_proposal_details").modal('hide');
+                $("#insert_offer").html(data);
+            })
+        })
+    })
+</script>
