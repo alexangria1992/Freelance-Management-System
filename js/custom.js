@@ -52,7 +52,13 @@ $(document).ready(function(){
 
     $('[data-toggle="tooltip"]').tooltip();
 
+    $(document).on('click', '.dropdown-menu', function(event){
+           event.stopPropagation() 
+    })
 
+    $( '.dropdown-menu .dropdown-item.dropdown-toggle').click(function(){
+        $('.collapse.dropdown-submenu').collapse('hide');
+ });
 
 
 
