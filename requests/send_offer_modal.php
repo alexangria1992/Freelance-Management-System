@@ -49,7 +49,7 @@
 
 <div id="submit-proposal-details" class="modal fade">
     <div class="modal-dialog">
-        
+
     </div>
 </div>
 <script>
@@ -58,6 +58,19 @@
         $("#submit-proposal").attr("disabled", "disabled");
         $(".radio-custom-label").click(function(){
             $("#submit-proposal").removeAttr("disabled");
+        })
+
+        $("#submit-proposal").click(function(){
+            proposal_id = document.querySelector('input[name="proposal_id"]:checked').value;
+            request_id = "";
+            $.ajax({
+                method: "POST",
+                url: "requests/submit_proposal_details.php",
+                data: {proposal_id: proposal_id, request_id: request_id}
+
+            }).done(function(data){
+                $("#submit-proposal-details .modal-dialog").html(data);
+            })
         })
     })
 </script>
