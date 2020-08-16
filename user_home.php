@@ -334,13 +334,75 @@
                                     <tr id="request_tr_1">
                                         <td>
                                             <img src="user_images/brock.jpg" alt="" class="request-img rounded-circle">
-                                            <div>
-                                                
+                                            <div class="request-description">
+                                                <h6>Brock Lesnar</h6>
+                                                <h6 class="text-primary">Script Writing</h6>
+                                                <p class="lead">I need a Programer To Write Me A Script</p>
                                             </div>
                                         </td>
+                                        <td>2</td>
+                                        <td>7</td>
+                                        <td class="text-success">
+                                            $200
+                                            <br>
+                                            <button class="btn btn-success btn-sm mt-4 send_button_1">
+                                                Send Offer
+                                            </button>
+                                        </td>
+
+                                    </tr>
+
+                                    <tr id="request_tr_2">
+                                        <td>
+                                            <img src="user_images/brock.jpg" alt="" class="request-img rounded-circle">
+                                            <div class="request-description">
+                                                <h6>Brock Lesnar</h6>
+                                                <h6 class="text-primary">Script Writing</h6>
+                                                <p class="lead">I need a Programer To Write Me A Script</p>
+                                            </div>
+                                        </td>
+                                        <td>2</td>
+                                        <td>7</td>
+                                        <td class="text-success">
+                                            $200
+                                            <br>
+                                            <button class="btn btn-success btn-sm mt-4 send_button_2">
+                                                Send Offer
+                                            </button>
+                                        </td>
+
+                                    </tr>
+
+                                    <tr id="request_tr_3">
+                                        <td>
+                                            <img src="user_images/brock.jpg" alt="" class="request-img rounded-circle">
+                                            <div class="request-description">
+                                                <h6>Brock Lesnar</h6>
+                                                <h6 class="text-primary">Script Writing</h6>
+                                                <p class="lead">I need a Programer To Write Me A Script</p>
+                                            </div>
+                                        </td>
+                                        <td>2</td>
+                                        <td>7</td>
+                                        <td class="text-success">
+                                            $200
+                                            <br>
+                                            <button class="btn btn-success btn-sm mt-4 send_button_3">
+                                                Send Offer
+                                            </button>
+                                        </td>
+
                                     </tr>
                                 </tbody>
                             </table>
+
+                            <hr>
+
+                            <center>
+                                <a href="requests/buyer_requests.php" class="btn btn-success btn-lg mb-3">
+                                    Load More
+                                </a>
+                            </center>
                         </div>
                     </div>
                 </div>
