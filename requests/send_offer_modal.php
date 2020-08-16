@@ -24,8 +24,24 @@
                     <div class="proposal-title">
                         I Will Do Viral YouTube Seo Social Media Promotion
                     </div>
+                    <hr>
+
+                    <div class="proposal-picture">
+                        <input type="radio" name="proposal_id" class="radio-custom" id="radio-2" required>
+                        <label for="radio-2" class="radio-custom-label"></label>
+                        <img src="proposals/proposal_files/youtube-seo-1.jpg" width="50" height="50"alt="">
+                    </div>
+                    <div class="proposal-title">
+                        I Will Do Viral YouTube Seo Social Media Promotion
+                    </div>
+                    <hr>
                 </div>
             </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button id="submit-proposal" class="btn btn-info" data-toggle="modal" data-dismiss="modal" data-target="#submit-proposal-details">Go Next</button>
+            </div>
+
         </div>
     </div>
 </div>

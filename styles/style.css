@@ -1194,6 +1194,38 @@ display: none;
     font-weight: 400;
 } 
 
+/** Buyer Requests Send Offers **/
+
+#send-offer-modal .modal-dialog 
+{
+    max-width: 600px !important;
+}
+
+.modal-body .request-summary 
+{
+    padding: 15px;
+    min-height: 90px;
+    background: #eeeeee;
+    border-bottom: 1px solid #dddddd;
+}
+
+.modal-body .request-summary #request-description 
+{
+    margin-left: 70px;
+    margin-top: -50px;
+    background: #f7f7f7;
+    border: 1px solid #dddddd;
+    color: #999999;
+    padding: 7px 10px;
+    border-radius: 3px;
+    font-size: 14px;
+
+}
+
+.modal-body .request-proposals-list 
+{
+    padding: 15px;
+}
 
 
 /** Footer Styles **/
