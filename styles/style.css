@@ -1097,7 +1097,59 @@ display: none;
 
 /** Login User Home **/
 
+.user-home-img-responsive
+{
+    height: 50px;
+}
 
+/** Medium Devices (Tablets, 768px and up) **/
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+    .user-home-img-responsive 
+    {
+        height: 60px;
+    }
+
+    .user-home-title-responsive 
+    {
+        margin-top: 5px;
+        font-size: 15px;
+    }
+}
+
+/** Small Devices (Landscape, Phones 576px and up) **/
+@media (min-width: 768px) and (max-width: 991px)
+{
+    .user-home-img-responsive 
+    {
+        height: 80px;
+        margin-bottom: 6px;
+    }
+
+    .user-home-title-responsive 
+    {
+        
+        font-size: 15px;
+    }
+}
+
+/** Extra Small Devices (Landscape, Phones 576px and up) **/
+
+@media (max-width: 575px) 
+{
+    .user-home-img-responsive 
+    {
+        height: 70px;
+        margin-bottom: 5px;
+    }
+
+    .user-home-title-responsive 
+    {
+        
+        font-size: 15px;
+    }
+}
 
 /** Footer Styles **/
 
