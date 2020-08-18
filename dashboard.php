@@ -15,9 +15,13 @@
 </head>
 <body>
     <?php include("includes/user_header.php")?>
-        <div>
+        <div class="container mt-4 mb-5">
+            <div class="row">
+                <div class="col-md-4">
+                    <?php include("includes/dashboard_sidebar.php") ?>
+                </div>
+            </div>
 
-        
         </div>
     <?php include("includes/footer.php"); ?>
 
