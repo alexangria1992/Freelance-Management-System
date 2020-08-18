@@ -29,7 +29,44 @@
                                     <img src="user_images/fixmywebsite.jpg" class="rounded-circle img-thumbnail" width="130" alt="">
                                 </div>
                                 <div class="col-lg-9 col-sm-12 text-lg-left text-center">
-
+                                    <div class="row mb-2">
+                                        <div class="col-6 col-lg-4 mt-3">
+                                            <h6 class="text-muted">Positive Ratings</h6>
+                                            <h6>92%</h6>
+                                        </div>
+                                        <div class="col-6 col-lg-8 mt-3">
+                                            <h6 class="text-muted">Country</h6>
+                                            <h6>United States</h6>
+                                        </div>
+                                    </div>  
+                                   
+                                        <div class="row">
+                                            <div class="col-6 col-lg-4">
+                                                <h6 class="text-muted">Recent Delivery</h6>
+                                                <h6>December 1, 2017</h6>
+                                            </div>
+                                            <div class="col-6 col-lg-8">
+                                                <h6 class="text-muted">Member Since</h6>
+                                                <h6>April, 2017</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                    <hr>
+                                    <div class="row pl-3 pr-3 pb-2 pt-3 mt-4">
+                                        <div class="col-md-4 text-center border-box">
+                                            <h5 class="text-muted">Orders Completed</h5>
+                                            <h3 class="text-success">10</h3>
+                                        </div>
+                                        <div class="col-md-4 text-center border-box">
+                                            <h5 class="text-muted">Delivered Orders</h5>
+                                            <h3 class="text-success">5</h3>
+                                        </div>
+                                        <div class="col-md-4 text-center border-box">
+                                            <h5 class="text-muted">Orders Cancelled</h5>
+                                            <h3 class="text-success">3</h3>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
