@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
     <link href="styles/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css"> 
+    <link rel="stylesheet" href="styles/user_nav_style.css">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <link href="styles/owl.carousel.css" rel="stylesheet">
     <link rel="stylesheet" href="styles/owl.theme.default.css">
@@ -14,6 +15,10 @@
 </head>
 <body>
     <?php include("includes/user_header.php")?>
+        <div>
+
+        
+        </div>
     <?php include("includes/footer.php"); ?>
 
 
