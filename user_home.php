@@ -507,8 +507,223 @@
                                </div>
                            </div>
                        </div>
+
+                       <div class="row mb-3">
+                           <div class="col-md-3">
+                               <a href="proposals/proposal.php" class="video-img">
+                                    <img src="proposals/proposal_files/youtube-seo-1.jpg" class="vertical-proposal-img" alt="">
+                                </a>
+                           </div>
+                           <div class="col-md-9">
+                               <div class="text">
+                                   <h6>
+                                       <a href="proposals/proposal.php">I Will Do Viral Youtube Seo Social Media Promotion </a>
+                                       <span class="text-success">$20</span>
+                                   </h6>
+                                   <p>
+                                   Need a Professional Resume, LinkedIn Profile and Cover letter written by a Certified Resume Writer? I will create a resume/cover letter that will make you an outstanding candidate for your dream job .. &nbsp;
+                                   <a href="proposals/proposal.php">Read More</a>
+                                   </p>
+                                    <hr>
+                                    <span class="float-left">
+                                        <strong class="ml-2 mr-1">By</strong>miss_digimarket
+                                    </span>
+                                    <span class="float-right">
+                                    <img src="images/user_rate_full.png" alt="" class="rating">
+                                    <img src="images/user_rate_full.png" alt="" class="rating">
+                                    <img src="images/user_rate_full.png" alt="" class="rating">
+                                    <img src="images/user_rate_full.png" alt="" class="rating">
+                                    <img src="images/user_rate_blank.png" alt="" class="rating">
+                                    <span class="ml-1 mr-2">(2)</span>
+                                    </span>
+                               </div>
+                           </div>
+                       </div>
+
+                       <div class="row mb-3">
+                           <div class="col-md-3">
+                               <a href="proposals/proposal.php" class="video-img">
+                                    <img src="proposals/proposal_files/youtube-seo-1.jpg" class="vertical-proposal-img" alt="">
+                                </a>
+                           </div>
+                           <div class="col-md-9">
+                               <div class="text">
+                                   <h6>
+                                       <a href="proposals/proposal.php">I Will Do Viral Youtube Seo Social Media Promotion </a>
+                                       <span class="text-success">$20</span>
+                                   </h6>
+                                   <p>
+                                   Need a Professional Resume, LinkedIn Profile and Cover letter written by a Certified Resume Writer? I will create a resume/cover letter that will make you an outstanding candidate for your dream job .. &nbsp;
+                                   <a href="proposals/proposal.php">Read More</a>
+                                   </p>
+                                    <hr>
+                                    <span class="float-left">
+                                        <strong class="ml-2 mr-1">By</strong>miss_digimarket
+                                    </span>
+                                    <span class="float-right">
+                                    <img src="images/user_rate_full.png" alt="" class="rating">
+                                    <img src="images/user_rate_full.png" alt="" class="rating">
+                                    <img src="images/user_rate_full.png" alt="" class="rating">
+                                    <img src="images/user_rate_full.png" alt="" class="rating">
+                                    <img src="images/user_rate_blank.png" alt="" class="rating">
+                                    <span class="ml-1 mr-2">(2)</span>
+                                    </span>
+                               </div>
+                           </div>
+                       </div>
+
+                       <ul class="pagination justify-content-center">
+                           <li class="page-item">
+                               <a href="index.php?random_proposals_page=1&top_proposals_page=1" class="page-link">
+                                   First Page
+                               </a>
+                           </li>
+                           <li class="page-item active">
+                               <a href="index.php?random_proposals_page=1&top_proposals_page=1" class="page-link">
+                                   1
+                               </a>
+                           </li>
+                           <li class="page-item">
+                               <a href="index.php?random_proposals_page=1&top_proposals_page=1" class="page-link">
+                                   2
+                               </a>
+                           </li>
+                           <li class="page-item">
+                               <a href="index.php?random_proposals_page=1&top_proposals_page=1" class="page-link">
+                                   Last Page
+                               </a>
+                           </li>
+                       </ul>
                    </div>
-               </div>
+               </div>         
+           </div>
+
+           <div class="col-md-6">
+               <div class="card border-primary mb-3">
+                   <div class="card-header bg-primary">
+                       <h5 class="h5 text-white">Random Proposals</h5>
+                   </div>
+                   <div class="card-body vertical-proposals">
+                       <div class="row mb-3">
+                           <div class="col-md-3">
+                               <a href="proposals/proposal.php" class="video-img">
+                                    <img src="proposals/proposal_files/youtube-seo-1.jpg" class="vertical-proposal-img" alt="">
+                                </a>
+                           </div>
+                           <div class="col-md-9">
+                               <div class="text">
+                                   <h6>
+                                       <a href="proposals/proposal.php">I Will Do Viral Youtube Seo Social Media Promotion </a>
+                                       <span class="text-success">$20</span>
+                                   </h6>
+                                   <p>
+                                   Need a Professional Resume, LinkedIn Profile and Cover letter written by a Certified Resume Writer? I will create a resume/cover letter that will make you an outstanding candidate for your dream job .. &nbsp;
+                                   <a href="proposals/proposal.php">Read More</a>
+                                   </p>
+                                    <hr>
+                                    <span class="float-left">
+                                        <strong class="ml-2 mr-1">By</strong>miss_digimarket
+                                    </span>
+                                    <span class="float-right">
+                                    <img src="images/user_rate_full.png" alt="" class="rating">
+                                    <img src="images/user_rate_full.png" alt="" class="rating">
+                                    <img src="images/user_rate_full.png" alt="" class="rating">
+                                    <img src="images/user_rate_full.png" alt="" class="rating">
+                                    <img src="images/user_rate_blank.png" alt="" class="rating">
+                                    <span class="ml-1 mr-2">(2)</span>
+                                    </span>
+                               </div>
+                           </div>
+                       </div>
+
+                       <div class="row mb-3">
+                           <div class="col-md-3">
+                               <a href="proposals/proposal.php" class="video-img">
+                                    <img src="proposals/proposal_files/youtube-seo-1.jpg" class="vertical-proposal-img" alt="">
+                                </a>
+                           </div>
+                           <div class="col-md-9">
+                               <div class="text">
+                                   <h6>
+                                       <a href="proposals/proposal.php">I Will Do Viral Youtube Seo Social Media Promotion </a>
+                                       <span class="text-success">$20</span>
+                                   </h6>
+                                   <p>
+                                   Need a Professional Resume, LinkedIn Profile and Cover letter written by a Certified Resume Writer? I will create a resume/cover letter that will make you an outstanding candidate for your dream job .. &nbsp;
+                                   <a href="proposals/proposal.php">Read More</a>
+                                   </p>
+                                    <hr>
+                                    <span class="float-left">
+                                        <strong class="ml-2 mr-1">By</strong>miss_digimarket
+                                    </span>
+                                    <span class="float-right">
+                                    <img src="images/user_rate_full.png" alt="" class="rating">
+                                    <img src="images/user_rate_full.png" alt="" class="rating">
+                                    <img src="images/user_rate_full.png" alt="" class="rating">
+                                    <img src="images/user_rate_full.png" alt="" class="rating">
+                                    <img src="images/user_rate_blank.png" alt="" class="rating">
+                                    <span class="ml-1 mr-2">(2)</span>
+                                    </span>
+                               </div>
+                           </div>
+                       </div>
+
+                       <div class="row mb-3">
+                           <div class="col-md-3">
+                               <a href="proposals/proposal.php" class="video-img">
+                                    <img src="proposals/proposal_files/youtube-seo-1.jpg" class="vertical-proposal-img" alt="">
+                                </a>
+                           </div>
+                           <div class="col-md-9">
+                               <div class="text">
+                                   <h6>
+                                       <a href="proposals/proposal.php">I Will Do Viral Youtube Seo Social Media Promotion </a>
+                                       <span class="text-success">$20</span>
+                                   </h6>
+                                   <p>
+                                   Need a Professional Resume, LinkedIn Profile and Cover letter written by a Certified Resume Writer? I will create a resume/cover letter that will make you an outstanding candidate for your dream job .. &nbsp;
+                                   <a href="proposals/proposal.php">Read More</a>
+                                   </p>
+                                    <hr>
+                                    <span class="float-left">
+                                        <strong class="ml-2 mr-1">By</strong>miss_digimarket
+                                    </span>
+                                    <span class="float-right">
+                                    <img src="images/user_rate_full.png" alt="" class="rating">
+                                    <img src="images/user_rate_full.png" alt="" class="rating">
+                                    <img src="images/user_rate_full.png" alt="" class="rating">
+                                    <img src="images/user_rate_full.png" alt="" class="rating">
+                                    <img src="images/user_rate_blank.png" alt="" class="rating">
+                                    <span class="ml-1 mr-2">(2)</span>
+                                    </span>
+                               </div>
+                           </div>
+                       </div>
+
+                       <ul class="pagination justify-content-center">
+                           <li class="page-item">
+                               <a href="index.php?random_proposals_page=1&top_proposals_page=1" class="page-link">
+                                   First Page
+                               </a>
+                           </li>
+                           <li class="page-item active">
+                               <a href="index.php?random_proposals_page=1&top_proposals_page=1" class="page-link">
+                                   1
+                               </a>
+                           </li>
+                           <li class="page-item">
+                               <a href="index.php?random_proposals_page=1&top_proposals_page=1" class="page-link">
+                                   2
+                               </a>
+                           </li>
+                           <li class="page-item">
+                               <a href="index.php?random_proposals_page=1&top_proposals_page=1" class="page-link">
+                                   Last Page
+                               </a>
+                           </li>
+                       </ul>
+                   </div>
+               </div>         
            </div>
        </div>
 

@@ -1313,6 +1313,48 @@ display: none;
 
 }
 
+/** Vertical Proposals Divs Styles **/
+.vertical-proposals .col-md-3 .vertical-proposal-img 
+{
+    width: 100%;
+    min-height: 110px;
+    margin-bottom: 7px;
+}
+
+.vertical-proposals .col-md-3 .video-img:after 
+{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 21px;
+    left: 50%;
+    z-index: 1;
+}
+
+.vertical-proposals .col-md-9 .text hr 
+{
+  margin-bottom: 5px;  
+} 
+
+@media(max-width: 768px)
+{
+    .vertical-proposals .col-md-3 .video-img:after 
+    {
+        top: 45%;
+        left: 50%;
+        z-index: 1;
+    }
+}
+
+@media(max-width: 500px)
+{
+    .vertical-proposals .col-md-3 .video-img:after 
+    {
+        top: 30%;
+        left: 50%;
+        z-index: 1;
+    }
+}
 
 
 
