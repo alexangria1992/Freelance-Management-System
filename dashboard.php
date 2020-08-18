@@ -88,6 +88,34 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="card rounded-0 mt-3">
+                                <div class="card-header">
+                                    <ul class="nav nav-tabs card-header-tabs">
+                                        <li class="nav-item">
+                                            <a href="#notifications" data-toggle="tab"  class="nav-link active">notifications
+                                                <span class="badge badge-success">2</span></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#inbox" data-toggle="tab"  class="nav-link ">Messages
+                                            <span class="badge badge-success">2</span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="card-body p-0">
+                                        <div class="tab-content">
+                                            <div id="notifications" class="tab-pane fade show active mt-3">
+                                            <div class="header-message-div-unread">
+                                                <a href="dashboard.php?delete_notification" class="float-right text-danger">
+                                                    <i class="fa fa-times-circle fa-lg"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
                         </div>
                     </div>
                 </div>
