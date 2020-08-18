@@ -1364,8 +1364,32 @@ display: none;
     margin-top: -50px;
 }
 
+/** Dashboard Page Styles **/
 
+.border-box 
+{
+    border-right: 1.5px solid #a5a5a5;
+}
 
+@media (max-width: 768px)
+{
+    .border-box 
+    {
+        border-right: 0px;
+        border-bottom: 1.5px solid #a5a5a5;
+        margin-bottom: 3px;
+    }
+
+    .border-box:last-child 
+    {
+        border-bottom: 0px;
+    }
+}
+
+.border-box:last-child
+{
+    border-right: 0px;
+}
 
 
 

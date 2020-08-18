@@ -67,6 +67,25 @@
                                             <h3 class="text-success">3</h3>
                                         </div>
                                     </div>
+                                    <hr>
+                                    <div class="row pl-3 pr-3 pb-2 pt-2">
+                                        <div class="col-md-3 text-center border-box">
+                                            <h5 class="text-muted">Open Purchases</h5>
+                                            <h3>4</h3>
+                                        </div>
+                                        <div class="col-md-3 text-center border-box">
+                                            <h5 class="text-muted">Balance</h5>
+                                            <h3 class="text-success">$172</h3>
+                                        </div>
+                                        <div class="col-md-3 text-center border-box">
+                                            <h5 class="text-muted">Sales In Queue</h5>
+                                            <h3>2</h3>
+                                        </div>
+                                        <div class="col-md-3 text-center border-box">
+                                            <h5 class="text-muted">Earned This Month</h5>
+                                            <h3 class="text-success">$74</h3>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
