@@ -109,8 +109,50 @@
                                                 <a href="dashboard.php?delete_notification" class="float-right text-danger">
                                                     <i class="fa fa-times-circle fa-lg"></i>
                                                 </a>
+                                                <a href="dashboard.php?n_id">
+                                                    <img src="user_images/salman.jpg" width="50" height="50" class="rounded-circle" alt="">
+                                                    <strong class="heading">Salman Khan</strong>
+                                                    <p class="message">Complete Your Order</p>
+                                                    <p class="date text-muted"> 3:01  Dec 02 2020 </p>
+                                                </a>
+                                            </div>
+
+                                            <div class="header-message-div">
+                                                <a href="dashboard.php?delete_notification" class="float-right text-danger">
+                                                    <i class="fa fa-times-circle fa-lg"></i>
+                                                </a>
+                                                <a href="dashboard.php?n_id">
+                                                    <img src="user_images/salman.jpg" width="50" height="50" class="rounded-circle" alt="">
+                                                    <strong class="heading">Salman Khan</strong>
+                                                    <p class="message">Complete Your Order</p>
+                                                    <p class="date text-muted"> 3:01  Dec 02 2020 </p>
+                                                </a>
+                                             </div>
+                                        </div>
+                                        <div id="inbox" class="tab-pane fade mt-3">
+                                            <div class="header-message-div-unread">
+                                                <a href="conversations/insert_message.php?single_message_id">
+                                                    <img src="user_images/brock.jpg" width="50" height="50" class="rounded-circle" alt="">
+                                                    <strong class="heading">Brock Lesnar</strong>
+                                                    <p class="message text-truncate">
+                                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                                                    </p>
+                                                    <p class="date text-muted"> 3:08pm Dec 02 2020</p>
+                                                </a>
+                                            </div>
+
+                                            <div class="header-message-div">
+                                                <a href="conversations/insert_message.php?single_message_id">
+                                                    <img src="user_images/brock.jpg" width="50" height="50" class="rounded-circle" alt="">
+                                                    <strong class="heading">Brock Lesnar</strong>
+                                                    <p class="message text-truncate">
+                                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                                                    </p>
+                                                    <p class="date text-muted"> 3:08pm Dec 02 2020</p>
+                                                </a>
                                             </div>
                                         </div>
+
                                     </div>
                                 </div>
 
