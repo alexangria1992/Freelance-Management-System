@@ -1356,6 +1356,13 @@ display: none;
     }
 }
 
+/** Contact Styles **/
+
+.contact-title 
+{
+    margin-left: 65px;
+    margin-top: -50px;
+}
 
 
 

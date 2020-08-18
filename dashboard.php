@@ -20,6 +20,23 @@
                 <div class="col-md-4">
                     <?php include("includes/dashboard_sidebar.php") ?>
                 </div>
+
+                <div class="col-md-8">
+                    <div class="card rounded-0">
+                        <div class="card-body p-0">
+                            <div class="row p-2">
+                                <div class="col-lg-3 col-sm-12 text-center">
+                                    <img src="user_images/fixmywebsite.jpg" class="rounded-circle img-thumbnail" width="130" alt="">
+                                </div>
+                                <div class="col-lg-9 col-sm-12 text-lg-left text-center">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
             </div>
 
         </div>
