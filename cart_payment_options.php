@@ -163,6 +163,45 @@
                </div>
            </div>
         </div>
+        <script>
+            $(document).ready(function()
+            {
+                $('.processing-fee').hide();
+                $('.total-price').html('40');
+                $('#paypal-form').hide();
+                $('#credit-card-form').hide();
+
+                $('#shopping-balance').click(function(){
+                    $('.col-md-5 .card br').show();
+                    $('.total-price').html('$40');
+                    $('.processing-fee').hide();
+                    $('#credit-card-form').hide();
+                    $('#paypal-form').hide();
+                    $('#shopping-balance-form').hide();
+
+                });
+
+                $('#paypal').click(function(){
+                    $('.col-md-5 .card br').hide();
+                    $('.total-price').html('$41');
+                    $('.processing-fee').show();
+                    $('#credit-card-form').hide();
+                    $('#paypal-form').show();
+                    $('#shopping-balance-form').hide();
+
+                });
+
+                $('#credit-card').click(function(){
+                    $('.col-md-5 .card br').hide();
+                    $('.total-price').html('$41');
+                    $('.processing-fee').show();
+                    $('#credit-card-form').show();
+                    $('#paypal-form').hide();
+                    $('#shopping-balance-form').hide();
+
+                });
+            });
+        </script>
     <?php include("includes/footer.php"); ?>
 
 
