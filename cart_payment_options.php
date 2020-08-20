@@ -12,6 +12,9 @@
     <link href="styles/owl.carousel.css" rel="stylesheet">
     <link rel="stylesheet" href="styles/owl.theme.default.css">
     <script src="js/jquery.min.js"></script>
+    <script src="https://js.stripe.com/v3/"></script>
+    <script src="https://checkout.stripe.com/checkout.js"></script>
+
 </head>
 <body>
     <?php include("includes/header.php"); ?>
@@ -120,6 +123,40 @@
                             <button type="submit" name="submit" class="btn btn-lg btn-success btn-block">
                             Pay With Paypal
                             </button>
+                        </form>
+
+                        <form action="cart_charge.php" method="post" id="credit-card-form">
+                            <input type="hidden" name="amount" value="">
+                            <input type="submit" class="btn btn-lg btn-success btn-block strip-submit"
+                            data-key="pk_test_TYooMQauvdEDq54NiTphI7jx"
+                            value="Pay With Credit Card"
+                            data-amount="1000"
+                            data-currency="usd"
+                            data-email = "fixmywebsite@gmail.com"
+                            data-name="Computerfever.com"
+                            data-image="images/logo.png"
+                            data-description="All Cart Proposals Payment"
+                            data-allow-remember-me="false"
+                            >
+
+                            <script>
+                                $(document).ready(function() {
+                                $('.strip-submit').on('click', function(event) {
+                                    event.preventDefault();
+
+                                    var $button = $(this),
+                                        $form = $button.parents('form');
+
+                                    var opts = $.extend({}, $button.data(), {
+                                        token: function(result) {
+                                            $form.append($('<input>').attr({ type: 'hidden', name: 'stripeToken', value: result.id })).submit();
+                                        }
+                                    });
+
+                                    StripeCheckout.open(opts);
+                                });
+                            });
+                            </script>
                         </form>
                     </div>
                 </div>
