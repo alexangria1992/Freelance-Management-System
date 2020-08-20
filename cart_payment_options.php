@@ -100,6 +100,27 @@
                             Pay With Shopping balance
                            </button>
                         </form>
+                        <br>
+                        <form action="http://www.sandbox.paypal.com/cgi-bin/webscr" method="post" id="paypal-form">
+                            <input type="hidden" name="cmd" value="_cart">
+                            <input type="hidden" name="upload" value="1">
+                            <input type="hidden" name="handling_cart" value="1">
+                            <input type="hidden" name="business" value="sad.ahmed22224@gmail.com">
+                            <input type="hidden" name="currency_code" value="USD">
+                            <input type="hidden" name="cancel_return" value="cart_payment_options.php">
+                            <input type="hidden" name="return" value="paypal_order.php?cart_seller_id">
+                            <input type="hidden" name="item_name_1" value="I Will Do Viral Youtube Seo Social Media Promotion">
+                            <input type="hidden" name="item_number_1" value="1">
+                            <input type="hidden" name="amount_1" value="20">
+                            <input type="hidden" name="quantity_1" value="1">
+                            <input type="hidden" name="item_name_2" value="I Will Do Viral Youtube Seo Social Media Promotion">
+                            <input type="hidden" name="item_number_2" value="1">
+                            <input type="hidden" name="amount_2" value="20">
+                            <input type="hidden" name="quantity_2" value="1">
+                            <button type="submit" name="submit" class="btn btn-lg btn-success btn-block">
+                            Pay With Paypal
+                            </button>
+                        </form>
                     </div>
                 </div>
                </div>
