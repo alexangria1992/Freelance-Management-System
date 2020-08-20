@@ -1423,9 +1423,69 @@ display: none;
     color: #999999;
 }
 
+/** Cart Page Styles**/
+
+.cart-proposal input.quantity 
+{
+    width: 50px;
+    text-align: center;
+}
+
+.cart-proposal hr 
+{
+    border: 1px solid #e0e0e0;
+    margin-right: -20px;
+    margin-left: -20px;
+}
+
+.cart-order-details p 
+{
+    font-size: 16px;
+}
+
+.cart-order-details hr 
+{
+    margin-right: -20px;
+    margin-left: -20px;
+    border: 1px solid #e0e0e0;
+}
+
+/** Cart Payment Options Page Styles **/
+
+.payment-options .card-body .row .radio-input 
+{
+    margin-top: 10px;
+    height: 25px;
+    width: 25px;
+}
 
 
+.payment-options .card-body hr 
+{
+    margin-left: -20px;
+    margin-right: -20px;
+}
 
+/** Extra Small Devices (portrait phones, less than 576px) **/
+
+@media (max-width: 575px)
+{
+    .payment-options .row.col-1 
+    {
+        max-width: 10% !important;
+    }
+}
+
+.payment-options .row .col-11
+{
+    max-width: 80% !important;
+
+}
+
+.width-xs-100 
+{
+    width: 100% !important;
+}
 /** Footer Styles **/
 
 
