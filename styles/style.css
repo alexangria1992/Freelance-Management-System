@@ -1391,7 +1391,37 @@ display: none;
     border-right: 0px;
 }
 
+/** Favourties **/
 
+#favourites h1
+{
+    font-size: 40px !important;
+}
+
+#favourites .favourite-description
+{
+    font-size: 20px !important;
+}
+
+#favourites .favourite-owner 
+{
+    color: #999999;
+    font-size: 16px;
+}
+
+#favourites .favourite-owner img 
+{
+    width: 50px;
+    height: 50px;
+    margin-right: 12px;
+    float: left;
+    border-radius: 50%;
+}
+
+#favourites .favourite-owner a 
+{
+    color: #999999;
+}
 
 
 
