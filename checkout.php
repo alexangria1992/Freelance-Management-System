@@ -68,6 +68,36 @@
                        </div>
                    </div>
                </div>
+               <div class="col-md-5">
+                   <div class="card checkout-details">
+                       <div class="card-header">
+                           <h5>
+                               <i class="fa fa-money fa-fw"></i>Order Summary
+                           </h5>
+                       </div>
+                       <div class="card-body">
+                           <div class="row">
+                               <div class="col-md-4 mb-3">
+                                   <img src="proposals/proposal_files/youtube-seo-1.jpg" class="img-fluid" alt="">
+                               </div>
+                               <div class="col-md-8">
+                                   <h5>I Will Do Viral YouTube Seo Social Media Promotion</h5>
+                               </div>
+                           </div>
+                           <hr>
+                           <h6> Proposal Price: <span class="float-right">$20</span>
+                           <hr>
+                          <h6> Proposal Qty: <span class="float-right">2</span></h6>
+                          <hr>
+                          <h6 class="processing-fee"> Processing Fee : <span class="float-right">$1</span></h6>
+                          <hr class="processing-fee">
+                          <h6> Apply Coupon Code :</h6>
+                          <form method="post" class="input-group">
+                              
+                          </form>
+                       </div>
+                   </div>
+               </div>
 
             </div>
         </div>
