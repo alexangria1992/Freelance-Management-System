@@ -23,7 +23,41 @@
             </div>
             <div class="row">
                 <div class="col-md-12 mt-5 mb-3">
-                    
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item">
+                            <a href="#active" data-toggle="tab" class="nav-link active">
+                                ACTIVE <span class="badge badge-success">4</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#delivered" data-toggle="tab" class="nav-link">
+                                DELIVERED <span class="badge badge-success">1</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#completed" data-toggle="tab" class="nav-link">
+                                COMPLETED <span class="badge badge-success">1</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#cancelled" data-toggle="tab" class="nav-link ">
+                                CANCELLED <span class="badge badge-success">1</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#all" data-toggle="tab" class="nav-link ">
+                                ALL <span class="badge badge-success">6</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane fade show active" id="active">
+                            <?php
+                                include("manage_orders/order-active_selling.php");
+                            ?>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
