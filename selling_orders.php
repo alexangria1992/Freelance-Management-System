@@ -53,12 +53,27 @@
                     <div class="tab-content">
                         <div class="tab-pane fade show active" id="active">
                             <?php
-                                include("manage_orders/order-active_selling.php");
+                                include("manage_orders/order_active_selling.php");
                             ?>
                         </div>
                         <div class="tab-pane fade" id="delivered">
                             <?php
                                 include("manage_orders/order_delivered_selling.php");
+                            ?>
+                        </div>
+                        <div class="tab-pane fade" id="completed">
+                            <?php
+                                include("manage_orders/order_completed_selling.php");
+                            ?>
+                        </div>
+                        <div class="tab-pane fade" id="cancelled">
+                            <?php
+                                include("manage_orders/order_cancelled_selling.php");
+                            ?>
+                        </div>
+                        <div class="tab-pane fade" id="all">
+                            <?php
+                                include("manage_orders/order_all_selling.php");
                             ?>
                         </div>
                     </div>
