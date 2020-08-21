@@ -291,7 +291,7 @@
                                 <div class="card-body">
                                     <h3><strong class="text-success">Order Details</strong></h3>
                                     <h4><i class="fa fa-clock-o">&nbsp; 3 Days Delivery</i></h4>
-                                    <form action="../checkout.php">
+                                    <form method="post" action="../checkout.php">
                                         <input type="hidden" name="proposal_id" value="1">
                                         <button class="btn btn-lg button-lgl btn-success" type="submit" name="add_order">Order Now ($5)</button>
                                         <button class="btn btn-lg button-lgl btn-success" type="submit" name="add_cart"><i class="fa fa-lg fa-shopping-cart"></i></button>
@@ -372,6 +372,163 @@
                         <div class="col-md-10 offset-md-1">
                             <h2 class="p-2 mt-3">
                                 RECOMMENDED FOR YOU IN <a href="../user.php">miss_digimarket</a>
+                            </h2>
+                            <div class="row flex-wrap mb-3">
+                                <div class="col-lg-3 col-md-6 col-sm-6">
+                                    <div class="proposal-div">
+                                        <div class="proposal_nav">
+                                            <span class="float-left mt-2">
+                                                <strong class="ml-2 mr-1">By</strong>miss_digimarket
+                                            </span>
+                                            <span class="float-right mt-2">
+                                                <img src="../images/user_rate_full.png" alt="" class="rating">
+                                                <img src="../images/user_rate_full.png" alt="" class="rating">
+                                                <img src="../images/user_rate_full.png" alt="" class="rating">
+                                                <img src="../images/user_rate_blank.png" alt="" class="rating">
+                                                <img src="../images/user_rate_blank.png" alt="" class="rating">
+                                                <span class="ml-1 mr-2">(2)</span>
+                                            </span>
+                                            <div class="clearfix mb-2"></div>
+                                        </div>
+                                        <h4>
+                                        <a href="proposal.php">
+                                            <hr class="m-0 p-0">
+                                            <img src="proposal_files/youtube-seo-1.jpg" alt="" class="resp-img">
+                                            I Will Do Viral Youtube Seo Media Promotion
+                                        </a>
+                                        <div class="text">
+                                        <h4>
+                                        <hr>
+                                        <p class="buttons clearfix">
+                                            <span class="float-right">STARTING AT <strong class="price">$5</strong></span>
+                                        </p>
+                                         </h4>
+                                        </div>
+                                        <div class="ribbon">
+                                            <div class="theribbon">Featured</div>
+                                            <div class="ribbon-background"></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-6 col-sm-6">
+                                    <div class="proposal-div">
+                                        <div class="proposal_nav">
+                                            <span class="float-left mt-2">
+                                                <strong class="ml-2 mr-1">By</strong>miss_digimarket
+                                            </span>
+                                            <span class="float-right mt-2">
+                                                <img src="../images/user_rate_full.png" alt="" class="rating">
+                                                <img src="../images/user_rate_full.png" alt="" class="rating">
+                                                <img src="../images/user_rate_full.png" alt="" class="rating">
+                                                <img src="../images/user_rate_blank.png" alt="" class="rating">
+                                                <img src="../images/user_rate_blank.png" alt="" class="rating">
+                                                <span class="ml-1 mr-2">(2)</span>
+                                            </span>
+                                            <div class="clearfix mb-2"></div>
+                                        </div>
+                                        <h4>
+                                        <a href="proposal.php">
+                                            <hr class="m-0 p-0">
+                                            <img src="proposal_files/youtube-seo-1.jpg" alt="" class="resp-img">
+                                            I Will Do Viral Youtube Seo Media Promotion
+                                        </a>
+                                        <div class="text">
+                                        <h4>
+                                        <hr>
+                                        <p class="buttons clearfix">
+                                            <span class="float-right">STARTING AT <strong class="price">$5</strong></span>
+                                        </p>
+                                         </h4>
+                                        </div>
+                                        <div class="ribbon">
+                                            <div class="theribbon">Featured</div>
+                                            <div class="ribbon-background"></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-6 col-sm-6">
+                                    <div class="proposal-div">
+                                        <div class="proposal_nav">
+                                            <span class="float-left mt-2">
+                                                <strong class="ml-2 mr-1">By</strong>miss_digimarket
+                                            </span>
+                                            <span class="float-right mt-2">
+                                                <img src="../images/user_rate_full.png" alt="" class="rating">
+                                                <img src="../images/user_rate_full.png" alt="" class="rating">
+                                                <img src="../images/user_rate_full.png" alt="" class="rating">
+                                                <img src="../images/user_rate_blank.png" alt="" class="rating">
+                                                <img src="../images/user_rate_blank.png" alt="" class="rating">
+                                                <span class="ml-1 mr-2">(2)</span>
+                                            </span>
+                                            <div class="clearfix mb-2"></div>
+                                        </div>
+                                        <h4>
+                                        <a href="proposal.php">
+                                            <hr class="m-0 p-0">
+                                            <img src="proposal_files/youtube-seo-1.jpg" alt="" class="resp-img">
+                                            I Will Do Viral Youtube Seo Media Promotion
+                                        </a>
+                                        <div class="text">
+                                        <h4>
+                                        <hr>
+                                        <p class="buttons clearfix">
+                                            <span class="float-right">STARTING AT <strong class="price">$5</strong></span>
+                                        </p>
+                                         </h4>
+                                        </div>
+                                        <div class="ribbon">
+                                            <div class="theribbon">Featured</div>
+                                            <div class="ribbon-background"></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-6 col-sm-6">
+                                    <div class="proposal-div">
+                                        <div class="proposal_nav">
+                                            <span class="float-left mt-2">
+                                                <strong class="ml-2 mr-1">By</strong>miss_digimarket
+                                            </span>
+                                            <span class="float-right mt-2">
+                                                <img src="../images/user_rate_full.png" alt="" class="rating">
+                                                <img src="../images/user_rate_full.png" alt="" class="rating">
+                                                <img src="../images/user_rate_full.png" alt="" class="rating">
+                                                <img src="../images/user_rate_blank.png" alt="" class="rating">
+                                                <img src="../images/user_rate_blank.png" alt="" class="rating">
+                                                <span class="ml-1 mr-2">(2)</span>
+                                            </span>
+                                            <div class="clearfix mb-2"></div>
+                                        </div>
+                                        <h4>
+                                        <a href="proposal.php">
+                                            <hr class="m-0 p-0">
+                                            <img src="proposal_files/youtube-seo-1.jpg" alt="" class="resp-img">
+                                            I Will Do Viral Youtube Seo Media Promotion
+                                        </a>
+                                        <div class="text">
+                                        <h4>
+                                        <hr>
+                                        <p class="buttons clearfix">
+                                            <span class="float-right">STARTING AT <strong class="price">$5</strong></span>
+                                        </p>
+                                         </h4>
+                                        </div>
+                                        <div class="ribbon">
+                                            <div class="theribbon">Featured</div>
+                                            <div class="ribbon-background"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-10 offset-md-1">
+                            <h2 class="p-2 mt-3">
+                                Your Recently Viewed Proposals <a href="../user.php">miss_digimarket</a>
                             </h2>
                             <div class="row flex-wrap mb-3">
                                 <div class="col-lg-3 col-md-6 col-sm-6">
