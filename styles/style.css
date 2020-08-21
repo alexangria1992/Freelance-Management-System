@@ -1486,6 +1486,17 @@ display: none;
 {
     width: 100% !important;
 }
+
+/** Proposal Checkout Page Styles **/
+
+.checkout-details .card-body hr
+{
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 /** Footer Styles **/
 
 
