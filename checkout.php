@@ -93,8 +93,31 @@
                           <hr class="processing-fee">
                           <h6> Apply Coupon Code :</h6>
                           <form method="post" class="input-group">
-                              
+                              <input type="hidden" name="proposal_id" value="">
+                              <input type="hidden" name="proposal_qty" value="">
+                              <input type="text" name="code" class="form-control apply-disabled" placeholder="Enter Coupon Code" >
+                              <button type="submit" name="coupon_submit" class="input-group-addon btn btn-success">Apply</button>
                           </form>
+                          <p class="coupon-response"></p>
+                          <hr>
+                          <h5 class="font-weight-bold">
+                              Proposal Total : <span class="float-right total-price">$41
+                          </h5>
+                          <hr>
+                          <form action="shopping_balance.php" method="post" id="shopping-balance-form">
+                              <input type="hidden" name="proposal_id" value="">
+                              <input type="hidden" name="proposal_qty" value="">
+                              <input type="hidden" name="amount" value="">
+                              <button type="submit" name="checkout_submit_order" class="btn btn-lg btn-success btn-block"
+                              onclick="return confirm('Do you Really Wnat To Order This Proposal From Your Shopping Balance.')">
+                              Pay With Shopping Balance
+                              </button>
+                          </form>
+                          <br>
+                          <form action="http://www.sandbox.paypal.com/cgi-bin/webscr" method="post" id="paypal-form">
+                        
+                        
+                         </form>
                        </div>
                    </div>
                </div>
