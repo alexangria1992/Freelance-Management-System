@@ -114,9 +114,20 @@
                               </button>
                           </form>
                           <br>
-                          <form action="http://www.sandbox.paypal.com/cgi-bin/webscr" method="post" id="paypal-form">
-                        
-                        
+                          <form action="http://www.sandbox.paypal.com/cgi-bin/webscr" method="post" id="paypal-form">                      
+                            <input type="hidden" name="cmd" value="_xclick">
+                            <input type="hidden" name="business" value="sad.ahmed22224@gmail.com">
+                            <input type="hidden" name="tax" value="1">
+                            <input type="hidden" name="currency_code" value="USD">
+                            <input type="hidden" name="cancel_return" value="proposals/proposal.php">
+                            <input type="hidden" name="return" value="paypal_order.php?checkout_seller_id=?proposal_id=&proposal_qty&proposal_price=">
+                            <input type="hidden" name="item_name" value="I Will Do Viral Youtube Seo Social Media Promotion">
+                            <input type="hidden" name="item_number" value="1">
+                            <input type="hidden" name="amount" value="20">
+                            <input type="hidden" name="quantity" value="2">
+                            <button type="submit" name="submit" class="btn btn-lg btn-success btn-block">
+                            Pay With Paypal
+                            </button>
                          </form>
                        </div>
                    </div>
