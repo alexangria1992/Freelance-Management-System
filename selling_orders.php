@@ -56,6 +56,11 @@
                                 include("manage_orders/order-active_selling.php");
                             ?>
                         </div>
+                        <div class="tab-pane fade" id="delivered">
+                            <?php
+                                include("manage_orders/order_delivered_selling.php");
+                            ?>
+                        </div>
                     </div>
 
                 </div>
