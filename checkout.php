@@ -12,6 +12,8 @@
     <link href="styles/owl.carousel.css" rel="stylesheet">
     <link rel="stylesheet" href="styles/owl.theme.default.css">
     <script src="js/jquery.min.js"></script>
+    <script src="https://js.stripe.com/v3/"></script>
+    <script src="https://checkout.stripe.com/checkout.js"></script>
 </head>
 <body>
     <?php include("includes/header.php"); ?>
@@ -109,12 +111,12 @@
                               <input type="hidden" name="proposal_qty" value="">
                               <input type="hidden" name="amount" value="">
                               <button type="submit" name="checkout_submit_order" class="btn btn-lg btn-success btn-block"
-                              onclick="return confirm('Do you Really Wnat To Order This Proposal From Your Shopping Balance.')">
+                              onclick="return confirm('Do you Really Want To Order This Proposal From Your Shopping Balance.')">
                               Pay With Shopping Balance
                               </button>
                           </form>
                           <br>
-                          <form action="http://www.sandbox.paypal.com/cgi-bin/webscr" method="post" id="paypal-form">                      
+                          <form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" id="paypal-form">                      
                             <input type="hidden" name="cmd" value="_xclick">
                             <input type="hidden" name="business" value="sad.ahmed22224@gmail.com">
                             <input type="hidden" name="tax" value="1">
@@ -128,6 +130,43 @@
                             <button type="submit" name="submit" class="btn btn-lg btn-success btn-block">
                             Pay With Paypal
                             </button>
+                         </form>
+                         <form action="checkout_charge.php" method="post" id="credit-card-form">
+                         <input type="hidden" name="proposal_id" value="">
+                            <input type="hidden" name="proposal_qty" value="">
+                            <input type="hidden" name="proposal_price" value="">
+                            <input type="hidden" name="amount" value="">
+                            <input
+                            type="submit"
+                            class="btn btn-lg btn-success btn-block stripe-submit"
+                            value="Pay With Credit Card"
+                            data-key="pk_test_TYooMQauvdEDq54NiTphI7jx"
+                            data-amount="4000"
+                            data-currency="usd"
+                            data-email="fixmywebsite@gmail.com"
+                            data-name="computerefever.com"
+                            data-image="images/logo.png"
+                            data-description="I Will Do Viral Youtube Seo Social Media Promotion"
+                            data-allow-remember-me="false">
+
+                            <script>
+                                $(document).ready(function() {
+                                $('.stripe-submit').on('click', function(event) {
+                                    event.preventDefault();
+
+                                    var $button = $(this),
+                                        $form = $button.parents('form');
+
+                                    var opts = $.extend({}, $button.data(), {
+                                        token: function(result) {
+                                            $form.append($('<input>').attr({ type: 'hidden', name: 'stripeToken', value: result.id })).submit();
+                                        }
+                                    });
+
+                                    StripeCheckout.open(opts);
+                                });
+                            });
+                            </script>
                          </form>
                        </div>
                    </div>
